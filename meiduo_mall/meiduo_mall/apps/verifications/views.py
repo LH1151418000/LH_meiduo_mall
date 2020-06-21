@@ -15,43 +15,6 @@ logger = logging.getLogger('django')
 # Create your views here.
 
 
-# class ImageCodeView(View):
-#
-#     def get(self, request, uuid):
-#         text, image = captcha.generate_captcha()
-#         redis_conn = get_redis_connection('verify_code')
-#         redis_conn.setex('img_%s' % uuid, 300, text)
-#         print(text)
-#         return HttpResponse(image, content_type='image/jpg')
-#
-#
-# class SMSCodeView(View):
-#
-#     def get(self, request, mobile):
-#         image_code_client = request.GET.get('image_code')
-#         uuid = request.GET.get('image_code_id')
-#
-#         if not all([image_code_client, uuid]):
-#             return JsonResponse({'code': 404, 'errmsg': '缺少必传参数'})
-#
-#         redis_conn = get_redis_connection('verify_code')
-#         image_code_server = redis_conn.get('img_%s' % uuid).decode()
-#         if not image_code_server:
-#             return JsonResponse({'code': 404, 'errmsg': '图形验证码失效'})
-#
-#         redis_conn.delete('img_%s' % uuid)
-#         if image_code_client.lower() != image_code_server.lower():
-#             return JsonResponse({'code': 404, 'errmsg': '图形验证码输入错误'})
-#
-#         sms_code = '%06d' % randint(0, 999999)
-#         redis_conn.setex('sms_%s' % mobile, 300, sms_code)
-#         print(sms_code)
-#         CCP().send_template_sms(mobile, [sms_code, 5], 1)
-#
-#         return JsonResponse({'code': 0, 'errmsg': '发送成功'})
-
-
-
 class ImageCodeView(View):
     def get(self, request, uuid):
         text, image = captcha.generate_captcha()

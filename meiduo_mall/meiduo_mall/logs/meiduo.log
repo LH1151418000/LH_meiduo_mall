@@ -726,3 +726,204 @@ WARNING 2020-06-21 06:25:04,003 log 228 Not Found: /carts/simple/
 WARNING 2020-06-21 06:25:04,004 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3026
 INFO 2020-06-21 06:29:20,854 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
 INFO 2020-06-21 06:29:21,752 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:03:41,602 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-21 10:06:26,854 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:06:26,855 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3026
+WARNING 2020-06-21 10:06:41,870 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:06:41,870 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3026
+INFO 2020-06-21 10:06:43,935 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+WARNING 2020-06-21 10:06:43,943 log 228 Not Found: /logout/
+WARNING 2020-06-21 10:06:43,943 basehttp 154 "DELETE /logout/ HTTP/1.1" 404 3011
+INFO 2020-06-21 10:09:51,894 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:09:51,905 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-06-21 10:10:08,859 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:10:08,868 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-06-21 10:10:17,934 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:10:18,094 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:10:18,367 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:10:18,367 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3026
+INFO 2020-06-21 10:10:46,854 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:10:46,863 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-06-21 10:11:25,574 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:11:25,583 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-06-21 10:15:03,478 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/utils.py changed, reloading.
+INFO 2020-06-21 10:15:04,095 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:15:10,357 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:15:10,381 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-06-21 10:16:08,494 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:16:11,452 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:16:48,076 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:16:49,785 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:17:03,433 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:17:03,650 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:17:03,651 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3026
+INFO 2020-06-21 10:18:12,539 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:19:14,435 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:19:15,154 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:21:07,826 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:21:08,467 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:21:30,112 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:21:30,783 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:22:18,887 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:22:19,548 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:22:37,211 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-21 10:22:37,867 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:22:55,514 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:22:56,195 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:22:58,443 basehttp 154 "OPTIONS /logout/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:22:58,474 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27
+INFO 2020-06-21 10:23:30,217 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:23:30,373 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:23:30,658 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:23:30,658 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3180
+WARNING 2020-06-21 10:23:33,786 log 228 Not Found: /info/
+WARNING 2020-06-21 10:23:33,788 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:23:33,789 basehttp 154 "GET /info/ HTTP/1.1" 404 3156
+WARNING 2020-06-21 10:23:33,789 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3192
+INFO 2020-06-21 10:23:51,976 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:23:52,146 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:23:52,413 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:23:52,413 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3180
+WARNING 2020-06-21 10:23:54,899 log 228 Not Found: /info/
+WARNING 2020-06-21 10:23:54,901 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:23:54,901 basehttp 154 "GET /info/ HTTP/1.1" 404 3156
+WARNING 2020-06-21 10:23:54,902 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3192
+INFO 2020-06-21 10:24:53,488 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:24:53,654 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:24:53,938 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:24:53,938 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3180
+WARNING 2020-06-21 10:25:01,537 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:25:01,540 log 228 Not Found: /info/
+WARNING 2020-06-21 10:25:01,541 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3192
+WARNING 2020-06-21 10:25:01,541 basehttp 154 "GET /info/ HTTP/1.1" 404 3156
+INFO 2020-06-21 10:27:52,061 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:27:52,647 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:28:04,840 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:28:05,480 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:28:28,406 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:28:29,027 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:28:45,079 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:28:45,248 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:28:45,522 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:28:45,522 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3180
+WARNING 2020-06-21 10:28:48,470 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:28:48,472 log 228 Not Found: /info/
+WARNING 2020-06-21 10:28:48,473 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3192
+WARNING 2020-06-21 10:28:48,474 basehttp 154 "GET /info/ HTTP/1.1" 404 3156
+INFO 2020-06-21 10:29:20,323 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:29:20,998 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:29:38,536 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:29:38,715 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:29:38,994 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:29:38,994 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3180
+WARNING 2020-06-21 10:29:43,933 log 228 Not Found: /info/
+WARNING 2020-06-21 10:29:43,934 basehttp 154 "GET /info/ HTTP/1.1" 404 3156
+WARNING 2020-06-21 10:29:43,936 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:29:43,937 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3192
+INFO 2020-06-21 10:30:38,260 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:30:38,869 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:30:52,967 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:30:53,551 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:31:17,248 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:31:17,850 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:31:29,019 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:31:29,612 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:31:46,844 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:31:47,453 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:33:22,409 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:33:23,016 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:34:58,626 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:34:59,222 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:36:18,423 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:36:19,009 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:36:39,506 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:36:39,675 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:36:39,953 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:36:39,954 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3180
+WARNING 2020-06-21 10:36:42,020 log 228 Not Found: /info/
+WARNING 2020-06-21 10:36:42,020 basehttp 154 "GET /info/ HTTP/1.1" 404 3156
+WARNING 2020-06-21 10:36:42,028 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:36:42,028 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3192
+INFO 2020-06-21 10:37:00,507 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-21 10:37:01,257 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:37:45,605 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-21 10:37:46,192 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:37:54,998 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:37:55,171 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:37:55,638 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:37:55,638 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3332
+WARNING 2020-06-21 10:37:58,374 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:37:58,375 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3344
+ERROR 2020-06-21 10:37:58,418 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2020-06-21 10:37:58,419 basehttp 154 "GET /info/ HTTP/1.1" 500 55420
+INFO 2020-06-21 10:44:32,630 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:44:33,249 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:44:48,728 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:44:48,902 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:44:49,952 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:44:49,952 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3332
+WARNING 2020-06-21 10:44:52,791 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:44:52,793 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3344
+ERROR 2020-06-21 10:44:52,751 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2020-06-21 10:44:52,753 basehttp 154 "GET /info/ HTTP/1.1" 500 55420
+INFO 2020-06-21 10:45:20,106 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:45:20,267 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:45:20,556 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:45:20,557 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3332
+WARNING 2020-06-21 10:45:25,309 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:45:25,309 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3344
+ERROR 2020-06-21 10:45:25,351 log 228 Internal Server Error: /info/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view users.views.UserInfoView didn't return an HttpResponse object. It returned None instead.
+ERROR 2020-06-21 10:45:25,351 basehttp 154 "GET /info/ HTTP/1.1" 500 55420
+INFO 2020-06-21 10:48:19,475 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:48:20,097 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:48:44,166 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:48:44,336 basehttp 154 "POST /login/ HTTP/1.1" 200 75
+INFO 2020-06-21 10:48:53,243 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:48:53,404 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:48:53,691 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:48:53,691 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3332
+WARNING 2020-06-21 10:48:59,824 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:48:59,825 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3344
+INFO 2020-06-21 10:48:59,835 basehttp 154 "GET /info/ HTTP/1.1" 200 1
+INFO 2020-06-21 10:49:26,547 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 10:49:27,140 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 10:49:41,084 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 10:49:41,270 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 10:49:41,616 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 10:49:41,618 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3332
+WARNING 2020-06-21 10:49:44,150 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 10:49:44,151 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3344
+INFO 2020-06-21 10:49:44,156 basehttp 154 "GET /info/ HTTP/1.1" 200 27
+INFO 2020-06-21 11:27:31,356 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 11:27:32,095 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 11:29:56,919 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 11:29:57,556 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 11:30:34,586 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 11:30:35,254 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 11:32:32,149 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 11:32:32,720 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 11:32:48,071 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 11:32:48,511 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 11:32:48,512 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3332
+WARNING 2020-06-21 11:32:50,240 log 228 Not Found: /browse_histories/
+WARNING 2020-06-21 11:32:50,242 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 3344
+INFO 2020-06-21 11:32:50,245 basehttp 154 "GET /info/ HTTP/1.1" 200 103
+INFO 2020-06-21 11:33:03,583 basehttp 154 "DELETE /logout/ HTTP/1.1" 200 27

@@ -2,30 +2,17 @@ import json
 import logging
 import re
 
-from django.contrib.auth import login, authenticate
-from django.http import JsonResponse
+from django.contrib.auth import login, authenticate,logout
+from django.http import JsonResponse, HttpResponse
 from django.views import View
 from django_redis import get_redis_connection
-
+from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import User
 
 logger = logging.getLogger('django')
 
 
 # Create your views here.
-
-# class UserCountView(View):
-#
-#     def get(self, request, username):
-#         count = User.objects.filter(username=username).count()
-#         return JsonResponse({'code': 0, 'errmsg': 'ok', 'count': count})
-#
-#
-# class MobileCountView(View):
-#
-#     def get(self, request, mobile):
-#         count = User.objects.filter(mobile=mobile).count()
-#         return JsonResponse({'code': 0, 'errmsg': 'ok', 'count': count})
 
 
 class UserCountView(View):
@@ -109,7 +96,7 @@ class LoginView(View):
         if not all([username, password]):
             return JsonResponse({'code': 400, 'errmsg': '缺少必传参数'})
 
-        user = authenticate(username=username, password=password)
+        user = authenticate(request, username=username, password=password)
 
         if user is None:
             return JsonResponse({'code': 400, 'errmsg': '用户名或密码错误'})
@@ -125,3 +112,23 @@ class LoginView(View):
         response.set_cookie('username', username)
 
         return response
+
+
+class LogOutView(View):
+
+    def delete(self, request):
+        logout(request)
+
+        response = JsonResponse({'code': 0, 'errmsg': 'ok'})
+
+        response.delete_cookie('username')
+        return response
+
+
+class UserInfoView(LoginRequiredMixin, View):
+    """用户中心"""
+    def get(self, request):
+
+        return JsonResponse({'code': 0, 'errmsg': 'ok', 'info_data': {'username': request.user.username,
+                                                                      'mobile': request.user.mobile,
+                                                                      'email': request.user.email}})

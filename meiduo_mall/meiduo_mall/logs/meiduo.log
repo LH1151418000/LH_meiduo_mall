@@ -1,1 +1,728 @@
 INFO 2020-06-20 03:33:11,694 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 04:17:28,863 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 09:49:55,034 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 09:50:27,044 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 09:51:09,347 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-20 09:51:26,949 log 228 Not Found: /index/
+WARNING 2020-06-20 09:51:26,950 basehttp 154 "GET /index/ HTTP/1.1" 404 2332
+WARNING 2020-06-20 09:51:29,008 log 228 Not Found: /
+WARNING 2020-06-20 09:51:29,009 basehttp 154 "GET / HTTP/1.1" 404 2296
+WARNING 2020-06-20 09:51:29,159 log 228 Not Found: /favicon.ico
+WARNING 2020-06-20 09:51:29,159 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2347
+WARNING 2020-06-20 09:53:06,983 log 228 Not Found: /
+WARNING 2020-06-20 09:53:06,984 basehttp 154 "GET / HTTP/1.1" 404 2296
+WARNING 2020-06-20 09:53:23,826 log 228 Not Found: /username/
+WARNING 2020-06-20 09:53:23,826 basehttp 154 "GET /username/ HTTP/1.1" 404 2341
+INFO 2020-06-20 10:00:03,243 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-20 10:00:03,898 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 10:00:41,717 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-20 10:00:42,336 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-20 10:06:10,267 log 228 Not Found: /carts/simple/
+WARNING 2020-06-20 10:06:10,268 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2359
+WARNING 2020-06-20 10:06:41,730 log 228 Not Found: /carts/simple/
+WARNING 2020-06-20 10:06:41,730 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2359
+WARNING 2020-06-20 10:07:42,585 log 228 Not Found: /image_codes/c10ac753-1d85-4664-83b6-589d882874c6/
+WARNING 2020-06-20 10:07:42,586 basehttp 154 "GET /image_codes/c10ac753-1d85-4664-83b6-589d882874c6/ HTTP/1.1" 404 2467
+WARNING 2020-06-20 10:07:48,035 log 228 Not Found: /carts/simple/
+WARNING 2020-06-20 10:07:48,035 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2359
+WARNING 2020-06-20 10:08:02,064 log 228 Not Found: /carts/simple/
+WARNING 2020-06-20 10:08:02,064 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2359
+WARNING 2020-06-20 10:08:13,189 log 228 Not Found: /carts/simple/
+WARNING 2020-06-20 10:08:13,190 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2359
+INFO 2020-06-20 10:19:50,274 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-20 10:19:58,950 log 228 Not Found: /carts/simple/
+WARNING 2020-06-20 10:19:58,951 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2536
+WARNING 2020-06-20 10:20:00,367 log 228 Not Found: /image_codes/594ac840-e632-439e-a554-556014153767/
+WARNING 2020-06-20 10:20:00,368 basehttp 154 "GET /image_codes/594ac840-e632-439e-a554-556014153767/ HTTP/1.1" 404 2644
+WARNING 2020-06-20 10:20:03,274 log 228 Not Found: /image_codes/ffef2c48-1041-4869-8255-514e4a87eb7f/
+WARNING 2020-06-20 10:20:03,274 basehttp 154 "GET /image_codes/ffef2c48-1041-4869-8255-514e4a87eb7f/ HTTP/1.1" 404 2644
+WARNING 2020-06-20 10:20:08,130 log 228 Not Found: /register.html
+WARNING 2020-06-20 10:20:08,130 basehttp 154 "GET /register.html HTTP/1.1" 404 2536
+WARNING 2020-06-20 10:20:08,204 log 228 Not Found: /favicon.ico
+WARNING 2020-06-20 10:20:08,205 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2530
+INFO 2020-06-20 10:20:47,493 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-20 10:20:51,429 log 228 Not Found: /register.html
+WARNING 2020-06-20 10:20:51,429 basehttp 154 "GET /register.html HTTP/1.1" 404 2536
+ERROR 2020-06-20 10:20:56,567 log 228 Internal Server Error: /image_codes/2698c0a1-d1e5-44a6-aa0a-c8b5c0fe14ce/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 15, in get
+    return JsonResponse(image,content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:20:56,569 basehttp 154 "GET /image_codes/2698c0a1-d1e5-44a6-aa0a-c8b5c0fe14ce/ HTTP/1.1" 500 88410
+ERROR 2020-06-20 10:20:57,931 log 228 Internal Server Error: /image_codes/d405b6bf-af6f-4e33-a922-88aa48fea4f9/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 15, in get
+    return JsonResponse(image,content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:20:57,932 basehttp 154 "GET /image_codes/d405b6bf-af6f-4e33-a922-88aa48fea4f9/ HTTP/1.1" 500 88416
+INFO 2020-06-20 10:21:19,072 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-06-20 10:21:19,735 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 10:25:29,358 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2020-06-20 10:25:29,949 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 10:26:07,564 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-06-20 10:26:17,785 log 228 Internal Server Error: /image_codes/a6e5426f-a36d-463a-a346-085567d2a0c1/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:26:17,787 basehttp 154 "GET /image_codes/a6e5426f-a36d-463a-a346-085567d2a0c1/ HTTP/1.1" 500 88447
+ERROR 2020-06-20 10:27:09,344 log 228 Internal Server Error: /image_codes/ab630158-a35c-4219-907e-261c85e3b650/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:27:09,344 basehttp 154 "GET /image_codes/ab630158-a35c-4219-907e-261c85e3b650/ HTTP/1.1" 500 88477
+ERROR 2020-06-20 10:27:18,357 log 228 Internal Server Error: /image_codes/4fc82a24-d4f6-4474-84aa-276c0c510e50/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:27:18,358 basehttp 154 "GET /image_codes/4fc82a24-d4f6-4474-84aa-276c0c510e50/ HTTP/1.1" 500 88411
+WARNING 2020-06-20 10:27:42,212 log 228 Not Found: /register.html
+WARNING 2020-06-20 10:27:42,212 basehttp 154 "GET /register.html HTTP/1.1" 404 2536
+ERROR 2020-06-20 10:29:18,372 log 228 Internal Server Error: /image_codes/e7792092-1bb3-4b75-ba27-85b2d5eac08b/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:29:18,372 basehttp 154 "GET /image_codes/e7792092-1bb3-4b75-ba27-85b2d5eac08b/ HTTP/1.1" 500 88403
+ERROR 2020-06-20 10:29:20,488 log 228 Internal Server Error: /image_codes/7198ba09-7ac0-4846-ab62-f597bd9e957f/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:29:20,489 basehttp 154 "GET /image_codes/7198ba09-7ac0-4846-ab62-f597bd9e957f/ HTTP/1.1" 500 88441
+ERROR 2020-06-20 10:29:32,906 log 228 Internal Server Error: /image_codes/20f54c00-3d2d-449a-8475-e7cee9c97575/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:29:32,907 basehttp 154 "GET /image_codes/20f54c00-3d2d-449a-8475-e7cee9c97575/ HTTP/1.1" 500 88728
+INFO 2020-06-20 10:29:43,240 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-06-20 10:29:50,538 log 228 Internal Server Error: /image_codes/fdffc924-37d4-422f-acfd-b6275bc3e2f1/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:29:50,539 basehttp 154 "GET /image_codes/fdffc924-37d4-422f-acfd-b6275bc3e2f1/ HTTP/1.1" 500 88716
+WARNING 2020-06-20 10:32:02,176 log 228 Not Found: /usernames/useradmin/count/
+WARNING 2020-06-20 10:32:02,176 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 404 2575
+WARNING 2020-06-20 10:32:22,417 log 228 Not Found: /register.html
+WARNING 2020-06-20 10:32:22,418 basehttp 154 "GET /register.html HTTP/1.1" 404 2536
+ERROR 2020-06-20 10:32:34,696 log 228 Internal Server Error: /image_codes/3a2c2b3d-b98d-4880-80dc-77f410e3ffad/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:32:34,697 basehttp 154 "GET /image_codes/3a2c2b3d-b98d-4880-80dc-77f410e3ffad/ HTTP/1.1" 500 88692
+WARNING 2020-06-20 10:32:44,850 log 228 Not Found: /usernames/useradmin/count/
+WARNING 2020-06-20 10:32:44,850 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 404 2575
+INFO 2020-06-20 10:33:15,621 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-06-20 10:33:18,325 log 228 Internal Server Error: /image_codes/7474878e-e310-4e5e-b0f4-0c9db00a87b9/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:33:18,328 basehttp 154 "GET /image_codes/7474878e-e310-4e5e-b0f4-0c9db00a87b9/ HTTP/1.1" 500 88698
+INFO 2020-06-20 10:33:22,171 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+WARNING 2020-06-20 10:33:33,564 log 228 Not Found: /mobiles/13243815767/count/
+WARNING 2020-06-20 10:33:33,565 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 404 2576
+INFO 2020-06-20 10:33:44,985 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-20 10:33:45,655 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 10:33:47,232 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-06-20 10:33:50,047 log 228 Internal Server Error: /image_codes/393b0b5a-9fcb-4aa9-82e7-1e0054fa0dc1/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:33:50,049 basehttp 154 "GET /image_codes/393b0b5a-9fcb-4aa9-82e7-1e0054fa0dc1/ HTTP/1.1" 500 88708
+INFO 2020-06-20 10:33:54,544 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 10:34:11,328 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+ERROR 2020-06-20 10:35:04,258 log 228 Internal Server Error: /image_codes/8a31b56f-51e2-45f4-84a3-47d155b7f8f3/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:35:04,258 basehttp 154 "GET /image_codes/8a31b56f-51e2-45f4-84a3-47d155b7f8f3/ HTTP/1.1" 500 88708
+INFO 2020-06-20 10:35:41,877 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+ERROR 2020-06-20 10:35:43,819 log 228 Internal Server Error: /image_codes/e7742775-29af-495a-ae85-d84f0f5e738d/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:35:43,820 basehttp 154 "GET /image_codes/e7742775-29af-495a-ae85-d84f0f5e738d/ HTTP/1.1" 500 88674
+INFO 2020-06-20 10:38:54,327 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-20 10:38:58,351 log 228 Not Found: /image_codes/ffef5e56-c636-410e-bbd8-acd205aa74fd/
+WARNING 2020-06-20 10:38:58,351 basehttp 154 "GET /image_codes/ffef5e56-c636-410e-bbd8-acd205aa74fd/ HTTP/1.1" 404 2654
+INFO 2020-06-20 10:39:07,512 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 10:39:41,885 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+WARNING 2020-06-20 10:39:53,880 log 228 Not Found: /image_codes/1210a44f-f2f8-4472-89d0-6c3149c77019/
+WARNING 2020-06-20 10:39:53,880 basehttp 154 "GET /image_codes/1210a44f-f2f8-4472-89d0-6c3149c77019/ HTTP/1.1" 404 2654
+INFO 2020-06-20 10:41:09,090 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/urls.py changed, reloading.
+INFO 2020-06-20 10:41:09,657 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 10:41:37,819 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/urls.py changed, reloading.
+INFO 2020-06-20 10:41:38,427 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 10:41:46,971 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-06-20 10:41:50,936 log 228 Internal Server Error: /image_codes/71b5f12c-18d2-443f-9a8f-cbad723e36c6/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 17, in get
+    return JsonResponse(image, content_type='image/jpg')
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 552, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR 2020-06-20 10:41:50,938 basehttp 154 "GET /image_codes/71b5f12c-18d2-443f-9a8f-cbad723e36c6/ HTTP/1.1" 500 88738
+INFO 2020-06-20 10:42:22,742 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-06-20 10:42:23,361 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 10:42:26,705 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 10:42:28,761 basehttp 154 "GET /image_codes/63270fd6-d779-4fd6-ae97-1762662ebf80/ HTTP/1.1" 200 3204
+INFO 2020-06-20 10:43:45,214 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 10:43:47,804 basehttp 154 "GET /image_codes/6d69e55a-260a-4a35-bea1-09e8ea092625/ HTTP/1.1" 200 2844
+INFO 2020-06-20 11:41:09,948 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 11:41:15,285 basehttp 154 "GET /image_codes/3142d693-4401-4df5-8fdd-eaed492456b3/ HTTP/1.1" 200 3242
+INFO 2020-06-20 11:41:24,132 basehttp 154 "GET /image_codes/f95f19bd-f619-4621-a0fc-70ac52020761/ HTTP/1.1" 200 3078
+INFO 2020-06-20 11:42:22,326 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-20 11:42:22,905 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:06:26,765 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:07:25,150 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:07:30,755 basehttp 154 "GET /image_codes/8b295ac6-001b-4ede-8f42-8dabc9486324/ HTTP/1.1" 200 3341
+INFO 2020-06-20 12:07:51,607 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:07:51,743 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+ERROR 2020-06-20 12:07:51,774 log 228 Internal Server Error: /sms_codes/13243815767/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+TypeError: get() got an unexpected keyword argument 'mobile'
+ERROR 2020-06-20 12:07:51,775 basehttp 154 "GET /sms_codes/13243815767/?image_code=b4vx&image_code_id=8b295ac6-001b-4ede-8f42-8dabc9486324 HTTP/1.1" 500 71352
+INFO 2020-06-20 12:08:27,688 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:08:30,259 basehttp 154 "GET /image_codes/03709d26-f1cf-4336-8ffc-c5ef1a1647bf/ HTTP/1.1" 200 3042
+INFO 2020-06-20 12:08:34,714 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:09:23,742 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:09:27,931 basehttp 154 "GET /image_codes/49762aef-318b-44e2-a031-33e9d42b35d3/ HTTP/1.1" 200 2877
+INFO 2020-06-20 12:09:37,987 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:09:59,573 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:10:02,622 basehttp 154 "GET /image_codes/38738aef-249d-48b2-a888-49e3e4f421e1/ HTTP/1.1" 200 3075
+INFO 2020-06-20 12:11:04,819 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:11:04,890 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:11:04,890 basehttp 154 "GET /sms_codes/13243815767/?image_code=ckvd&image_code_id=38738aef-249d-48b2-a888-49e3e4f421e1 HTTP/1.1" 200 81
+INFO 2020-06-20 12:12:36,272 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:12:39,065 basehttp 154 "GET /image_codes/5883dfcd-ed25-4476-9ec6-bd8b732bb4ff/ HTTP/1.1" 200 3096
+INFO 2020-06-20 12:12:46,495 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:12:52,882 basehttp 154 "GET /sms_codes/13243815767/?image_code=pkoh&image_code_id=5883dfcd-ed25-4476-9ec6-bd8b732bb4ff HTTP/1.1" 200 81
+INFO 2020-06-20 12:12:52,886 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:14:47,442 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:14:51,069 basehttp 154 "GET /image_codes/58828296-c29d-45bb-858a-3ed849a53777/ HTTP/1.1" 200 3017
+INFO 2020-06-20 12:15:01,944 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:15:05,634 basehttp 154 "GET /sms_codes/13243815767/?image_code=urhx&image_code_id=58828296-c29d-45bb-858a-3ed849a53777 HTTP/1.1" 200 81
+INFO 2020-06-20 12:15:05,639 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:15:32,125 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:15:36,676 basehttp 154 "GET /image_codes/dc2bd32d-7bc3-4798-9822-289050e45031/ HTTP/1.1" 200 3142
+INFO 2020-06-20 12:15:47,412 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:15:55,302 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:16:43,485 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:16:45,993 basehttp 154 "GET /image_codes/1b70fe55-90bd-4359-b07f-a1a2127067cc/ HTTP/1.1" 200 3373
+INFO 2020-06-20 12:16:47,898 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:16:53,361 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:17:54,821 basehttp 154 "GET /sms_codes/13243815767/?image_code=ap4q&image_code_id=1b70fe55-90bd-4359-b07f-a1a2127067cc HTTP/1.1" 200 49
+INFO 2020-06-20 12:18:03,197 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-06-20 12:18:04,630 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:19:18,525 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:19:19,913 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:22:12,227 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:22:13,510 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:31:25,861 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:31:27,144 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:33:40,347 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:33:41,568 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:39:02,985 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:39:04,194 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:40:23,827 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:40:25,101 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:40:52,184 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:40:53,503 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:41:09,573 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:41:10,894 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:43:40,516 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:43:41,890 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:44:39,019 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/libs/yuntongxun/ccp_sms.py changed, reloading.
+INFO 2020-06-20 12:44:40,472 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:45:08,906 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 12:45:16,807 basehttp 154 "GET /image_codes/a7420e2b-c001-4a73-9534-680247130f9f/ HTTP/1.1" 200 3436
+INFO 2020-06-20 12:45:28,016 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:45:28,148 basehttp 154 "GET /image_codes/7257267c-6512-4a55-9fca-e1212c05958f/ HTTP/1.1" 200 3527
+INFO 2020-06-20 12:45:36,599 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 12:45:53,171 basehttp 154 "GET /sms_codes/13243815767/?image_code=egkm&image_code_id=7257267c-6512-4a55-9fca-e1212c05958f HTTP/1.1" 200 49
+INFO 2020-06-20 13:11:11,265 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:11:21,385 basehttp 154 "GET /image_codes/b609c8b5-adc0-408e-a448-d2a48085e894/ HTTP/1.1" 200 3540
+INFO 2020-06-20 13:11:27,211 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:11:29,398 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:11:41,708 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:12:44,451 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-06-20 13:12:45,072 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:19:50,104 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-06-20 13:19:50,732 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:48:55,509 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:49:04,141 basehttp 154 "GET /image_codes/0593e0ee-558f-49ed-b13a-34ed02985824/ HTTP/1.1" 200 3332
+INFO 2020-06-20 13:49:11,069 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:49:19,340 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:49:26,968 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+ERROR 2020-06-20 13:49:27,004 log 228 Internal Server Error: /sms_codes/13243815767/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 69, in get
+    image_code_server = redis_conn.get('img_%s' % uuid).decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-06-20 13:49:27,005 basehttp 154 "GET /sms_codes/13243815767/?image_code=adnr&image_code_id=0593e0ee-558f-49ed-b13a-34ed02985824 HTTP/1.1" 500 76108
+INFO 2020-06-20 13:50:58,576 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:51:08,082 basehttp 154 "GET /image_codes/79396aee-422c-4766-8e9f-10a36c47fdb3/ HTTP/1.1" 200 3182
+INFO 2020-06-20 13:51:20,814 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:51:25,413 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+ERROR 2020-06-20 13:51:25,454 log 228 Internal Server Error: /sms_codes/13243815767/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py", line 69, in get
+    image_code_server = redis_conn.get('img_%s' % uuid).decode()
+AttributeError: 'NoneType' object has no attribute 'decode'
+ERROR 2020-06-20 13:51:25,455 basehttp 154 "GET /sms_codes/13243815767/?image_code=khgn&image_code_id=79396aee-422c-4766-8e9f-10a36c47fdb3 HTTP/1.1" 500 76108
+INFO 2020-06-20 13:53:57,709 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:54:01,245 basehttp 154 "GET /image_codes/ec37ec02-65e6-47b1-ad74-56c2f0349e75/ HTTP/1.1" 200 3342
+INFO 2020-06-20 13:54:07,313 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:54:10,971 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:54:10,971 basehttp 154 "GET /sms_codes/13243815767/?image_code=cgwf&image_code_id=ec37ec02-65e6-47b1-ad74-56c2f0349e75 HTTP/1.1" 200 63
+INFO 2020-06-20 13:55:06,829 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:55:11,376 basehttp 154 "GET /image_codes/5eef27bb-d87a-46eb-8396-71a6e1758d01/ HTTP/1.1" 200 3058
+INFO 2020-06-20 13:55:16,324 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:55:20,195 basehttp 154 "GET /sms_codes/13243815767/?image_code=ifps&image_code_id=5eef27bb-d87a-46eb-8396-71a6e1758d01 HTTP/1.1" 200 63
+INFO 2020-06-20 13:55:20,199 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:55:45,480 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:55:48,167 basehttp 154 "GET /image_codes/3a4c9ac5-aec4-47bb-a92c-4066ee33d05d/ HTTP/1.1" 200 2990
+INFO 2020-06-20 13:55:49,912 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:55:54,736 basehttp 154 "GET /sms_codes/13243815767/?image_code=4fdu&image_code_id=3a4c9ac5-aec4-47bb-a92c-4066ee33d05d HTTP/1.1" 200 63
+INFO 2020-06-20 13:55:54,741 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:56:16,624 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:56:27,455 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:56:42,306 basehttp 154 "GET /image_codes/a802232e-e93c-48e0-9f19-f80fd899f8f6/ HTTP/1.1" 200 3334
+INFO 2020-06-20 13:57:31,410 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 13:57:38,308 basehttp 154 "GET /image_codes/246e1435-b67e-4427-bb7d-5dfc4cc40f91/ HTTP/1.1" 200 3136
+INFO 2020-06-20 13:58:25,672 basehttp 154 "GET /image_codes/b9dcc5ac-9bc7-460b-903b-1713172b6be9/ HTTP/1.1" 200 3345
+INFO 2020-06-20 13:59:22,621 basehttp 154 "GET /sms_codes/13243815767/?image_code=qtmv&image_code_id=b9dcc5ac-9bc7-460b-903b-1713172b6be9 HTTP/1.1" 200 63
+INFO 2020-06-20 13:59:22,623 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:59:40,243 basehttp 154 "GET /image_codes/50598f32-21cd-49e7-99af-5269959d0033/ HTTP/1.1" 200 3027
+INFO 2020-06-20 13:59:51,786 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 13:59:57,444 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 14:00:00,005 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 14:00:45,479 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-06-20 14:00:46,882 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 14:01:28,304 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-20 14:01:33,170 basehttp 154 "GET /image_codes/45e61e77-ecd2-469a-b5e3-3a5c1b63ae4b/ HTTP/1.1" 200 3462
+INFO 2020-06-20 14:01:36,081 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 14:01:41,830 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-20 14:01:42,068 basehttp 154 "GET /sms_codes/13243815767/?image_code=xsqb&image_code_id=45e61e77-ecd2-469a-b5e3-3a5c1b63ae4b HTTP/1.1" 200 49
+INFO 2020-06-21 00:17:02,200 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 00:17:09,516 basehttp 154 "GET /image_codes/67c75fa7-6a66-498c-be8c-41fb816bf969/ HTTP/1.1" 200 2906
+INFO 2020-06-21 00:17:24,278 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:17:27,308 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:17:30,164 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:17:43,504 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:17:43,729 basehttp 154 "GET /sms_codes/13243815767/?image_code=fmlk&image_code_id=67c75fa7-6a66-498c-be8c-41fb816bf969 HTTP/1.1" 200 49
+INFO 2020-06-21 00:17:54,747 basehttp 154 "GET /image_codes/8e60a2bc-b3dd-47f4-949a-d7301b0299d1/ HTTP/1.1" 200 3277
+INFO 2020-06-21 00:17:57,504 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:17:59,525 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:18:03,072 basehttp 154 "GET /sms_codes/13243815767/?image_code=p7qc&image_code_id=8e60a2bc-b3dd-47f4-949a-d7301b0299d1 HTTP/1.1" 200 75
+INFO 2020-06-21 00:18:03,075 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:37:59,564 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 00:38:06,070 basehttp 154 "GET /image_codes/fc5905ba-d7f0-464b-b6b6-2bd780a5b77d/ HTTP/1.1" 200 3044
+INFO 2020-06-21 00:38:12,165 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:38:15,274 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:38:21,575 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 00:38:21,793 basehttp 154 "GET /sms_codes/13243815767/?image_code=fxrb&image_code_id=fc5905ba-d7f0-464b-b6b6-2bd780a5b77d HTTP/1.1" 200 49
+INFO 2020-06-21 04:11:06,713 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 04:11:54,430 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 04:15:22,419 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 04:17:49,289 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/celery_tasks/main.py changed, reloading.
+INFO 2020-06-21 04:17:49,895 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 04:20:42,086 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 04:20:59,664 basehttp 154 "GET /image_codes/14dab527-9566-4c91-8ee9-e971ec56ac69/ HTTP/1.1" 200 3193
+INFO 2020-06-21 04:21:20,132 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 04:21:22,369 basehttp 154 "GET /usernames/useradmin/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 04:21:24,357 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 04:21:30,408 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 04:21:30,538 basehttp 154 "GET /sms_codes/13243815767/?image_code=v8n9&image_code_id=14dab527-9566-4c91-8ee9-e971ec56ac69 HTTP/1.1" 200 49
+INFO 2020-06-21 04:59:51,501 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 04:59:52,121 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:00:36,192 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:00:36,735 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:01:44,411 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:01:45,073 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:02:15,566 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:02:16,141 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:02:55,923 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:02:56,457 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:03:19,358 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:03:19,948 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:04:28,097 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:04:28,767 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:05:37,317 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:05:37,924 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:08:29,168 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:08:29,810 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:11:55,327 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:11:56,006 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:13:09,260 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:13:09,865 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:13:53,367 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:13:54,018 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:14:49,309 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:14:49,891 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:15:47,387 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:15:48,041 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:16:29,255 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:16:29,841 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:16:54,868 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:16:55,512 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:17:29,253 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:17:29,832 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:18:19,715 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:18:20,349 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:19:38,572 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:19:39,194 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:20:20,611 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:20:21,304 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:20:44,219 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:20:44,836 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:21:47,828 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:21:48,420 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:22:24,388 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:22:25,017 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:23:12,840 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-21 05:23:13,553 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:23:40,296 basehttp 154 "GET /image_codes/24819ebf-a49f-455c-b2c8-e0a2350639ef/ HTTP/1.1" 200 3246
+INFO 2020-06-21 05:23:52,632 basehttp 154 "GET /usernames/lj12345/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:24:10,289 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:24:15,591 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:24:15,702 basehttp 154 "GET /sms_codes/13243815767/?image_code=mzrh&image_code_id=24819ebf-a49f-455c-b2c8-e0a2350639ef HTTP/1.1" 200 49
+INFO 2020-06-21 05:24:49,335 basehttp 154 "GET /mobiles/13243815767/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:24:49,336 basehttp 154 "GET /usernames/lj12345/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:24:49,344 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+WARNING 2020-06-21 05:24:49,352 log 228 Forbidden (CSRF cookie not set.): /register/
+WARNING 2020-06-21 05:24:49,353 basehttp 154 "POST /register/ HTTP/1.1" 403 2868
+INFO 2020-06-21 05:25:35,475 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-21 05:25:36,100 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:27:01,731 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/verifications/views.py changed, reloading.
+INFO 2020-06-21 05:27:02,317 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:27:11,567 basehttp 154 "GET /image_codes/6b5feeed-6439-4a15-8d0e-e9e7d5e93c3c/ HTTP/1.1" 200 3031
+INFO 2020-06-21 05:27:17,892 basehttp 154 "GET /usernames/lj12345/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:27:34,385 basehttp 154 "GET /mobiles/13243815766/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:27:44,123 basehttp 154 "GET /mobiles/13243815766/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:27:44,253 basehttp 154 "GET /sms_codes/13243815766/?image_code=CADK&image_code_id=6b5feeed-6439-4a15-8d0e-e9e7d5e93c3c HTTP/1.1" 200 49
+INFO 2020-06-21 05:27:52,168 basehttp 154 "GET /mobiles/13243815766/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:27:52,170 basehttp 154 "GET /usernames/lj12345/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:27:52,176 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2020-06-21 05:27:52,344 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-06-21 05:27:55,072 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 05:27:55,072 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2873
+INFO 2020-06-21 05:29:12,530 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:29:13,217 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:29:49,179 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:29:49,796 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:29:53,716 basehttp 154 "GET /image_codes/fd771f9d-a2fe-4a1b-8fa1-5d0a77ae3d66/ HTTP/1.1" 200 3159
+INFO 2020-06-21 05:29:59,982 basehttp 154 "GET /usernames/lj123456/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:30:20,850 basehttp 154 "GET /mobiles/13243815765/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:30:25,871 basehttp 154 "GET /mobiles/13243815765/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:30:25,994 basehttp 154 "GET /sms_codes/13243815765/?image_code=tqzg&image_code_id=fd771f9d-a2fe-4a1b-8fa1-5d0a77ae3d66 HTTP/1.1" 200 49
+INFO 2020-06-21 05:30:36,596 basehttp 154 "GET /mobiles/13243815765/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:30:36,599 basehttp 154 "GET /usernames/lj123456/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:30:36,602 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2020-06-21 05:30:36,780 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-06-21 05:30:37,022 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 05:30:37,022 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2873
+INFO 2020-06-21 05:31:06,977 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+WARNING 2020-06-21 05:31:06,986 log 228 Not Found: /login/
+WARNING 2020-06-21 05:31:06,987 basehttp 154 "POST /login/ HTTP/1.1" 404 2853
+WARNING 2020-06-21 05:31:41,876 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 05:31:41,876 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2873
+INFO 2020-06-21 05:31:56,690 basehttp 154 "GET /image_codes/e3700f4f-445e-4187-9f5c-bb573cc960fb/ HTTP/1.1" 200 3557
+INFO 2020-06-21 05:32:02,854 basehttp 154 "GET /usernames/lj1234567/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:32:25,670 basehttp 154 "GET /mobiles/13243815764/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:32:34,546 basehttp 154 "GET /mobiles/13243815764/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:32:34,548 basehttp 154 "GET /sms_codes/13243815764/?image_code=owkl&image_code_id=e3700f4f-445e-4187-9f5c-bb573cc960fb HTTP/1.1" 200 49
+INFO 2020-06-21 05:32:43,423 basehttp 154 "OPTIONS /register/ HTTP/1.1" 200 0
+INFO 2020-06-21 05:32:43,428 basehttp 154 "GET /mobiles/13243815764/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:32:43,429 basehttp 154 "GET /usernames/lj1234567/count/ HTTP/1.1" 200 39
+INFO 2020-06-21 05:32:43,590 basehttp 154 "POST /register/ HTTP/1.1" 200 27
+WARNING 2020-06-21 05:32:43,835 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 05:32:43,835 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 2873
+INFO 2020-06-21 05:34:57,208 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:34:57,884 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:35:24,992 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:35:25,634 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:35:50,597 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:35:51,255 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:36:03,787 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:36:04,470 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:36:10,407 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:36:11,050 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:36:25,529 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:36:26,226 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:36:44,806 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:36:45,454 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:37:05,352 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:37:06,066 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:37:42,159 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:37:42,819 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:37:59,458 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:38:00,169 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:38:30,570 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:38:31,216 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:38:43,540 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:38:44,214 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:39:35,318 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:39:35,986 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:39:47,958 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:39:48,621 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:39:53,356 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:39:54,065 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:40:02,114 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:40:02,780 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:40:15,096 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:40:15,789 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:40:32,375 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:40:33,058 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:40:52,854 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 05:40:53,526 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:41:24,208 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+WARNING 2020-06-21 05:41:24,229 log 228 Not Found: /login/
+WARNING 2020-06-21 05:41:24,230 basehttp 154 "POST /login/ HTTP/1.1" 404 2853
+INFO 2020-06-21 05:41:36,125 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-21 05:41:36,762 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:41:43,661 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-21 05:41:44,343 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 05:41:58,913 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 05:41:59,079 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 05:41:59,336 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 05:41:59,337 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3026
+INFO 2020-06-21 06:16:00,779 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 06:16:01,454 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 06:22:42,928 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 06:22:43,563 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 06:23:15,108 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 06:23:15,681 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 06:23:50,424 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 06:23:51,017 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-21 06:24:09,407 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 06:24:09,408 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3026
+INFO 2020-06-21 06:24:21,784 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 06:24:21,939 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 06:24:22,181 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 06:24:22,181 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3026
+INFO 2020-06-21 06:24:48,600 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 06:24:49,192 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-21 06:25:03,590 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-21 06:25:03,756 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-21 06:25:04,003 log 228 Not Found: /carts/simple/
+WARNING 2020-06-21 06:25:04,004 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 3026
+INFO 2020-06-21 06:29:20,854 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-21 06:29:21,752 autoreload 597 Watching for file changes with StatReloader

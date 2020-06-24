@@ -214,7 +214,8 @@ class Captcha(object):
         self.initialize()
         return self.captcha("")
 
+
 captcha = Captcha.instance()
 
-if __name__ == '__main__':
-    print(captcha.generate_captcha())
+# if __name__ == '__main__':
+#     print(captcha.generate_captcha())

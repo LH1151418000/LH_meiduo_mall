@@ -1183,3 +1183,764 @@ WARNING 2020-06-23 13:29:21,734 basehttp 154 "GET /browse_histories/ HTTP/1.1" 4
 INFO 2020-06-23 13:29:21,737 basehttp 154 "GET /info/ HTTP/1.1" 200 146
 INFO 2020-06-23 13:31:12,714 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/celery_tasks/email/tasks.py changed, reloading.
 INFO 2020-06-23 13:31:13,341 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:48:43,911 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-24 03:48:56,247 log 228 Not Found: /browse_histories/
+WARNING 2020-06-24 03:48:56,248 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 4144
+INFO 2020-06-24 03:48:56,255 basehttp 154 "GET /info/ HTTP/1.1" 200 146
+WARNING 2020-06-24 03:48:58,340 log 228 Not Found: /addresses/
+WARNING 2020-06-24 03:48:58,342 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4123
+INFO 2020-06-24 03:48:58,347 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+WARNING 2020-06-24 03:49:20,033 log 228 Not Found: /areas/150000/
+WARNING 2020-06-24 03:49:20,034 basehttp 154 "GET /areas/150000/ HTTP/1.1" 404 4132
+WARNING 2020-06-24 03:49:24,911 log 228 Not Found: /areas/210000/
+WARNING 2020-06-24 03:49:24,911 basehttp 154 "GET /areas/210000/ HTTP/1.1" 404 4132
+WARNING 2020-06-24 03:49:28,956 log 228 Not Found: /areas/120000/
+WARNING 2020-06-24 03:49:28,956 basehttp 154 "GET /areas/120000/ HTTP/1.1" 404 4132
+INFO 2020-06-24 03:50:39,012 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:50:39,611 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:50:48,486 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:50:49,095 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:55:40,073 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:55:40,691 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:56:24,317 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:56:24,906 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:57:14,782 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:57:15,390 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:57:40,652 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:57:41,258 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:57:48,231 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:57:48,851 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:58:02,221 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:58:02,818 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:58:23,578 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:58:24,237 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:58:29,019 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:58:29,696 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:58:42,016 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:58:42,650 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:58:47,461 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:58:48,131 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:59:25,350 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:59:25,946 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 03:59:36,105 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 03:59:36,696 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-24 04:00:56,082 log 228 Not Found: /addresses/
+WARNING 2020-06-24 04:00:56,083 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4123
+INFO 2020-06-24 04:00:56,086 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+WARNING 2020-06-24 04:00:58,983 log 228 Not Found: /areas/120000/
+WARNING 2020-06-24 04:00:58,984 basehttp 154 "GET /areas/120000/ HTTP/1.1" 404 4132
+INFO 2020-06-24 04:01:23,237 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 04:01:23,859 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-24 04:01:27,504 log 228 Not Found: /addresses/
+WARNING 2020-06-24 04:01:27,505 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4123
+INFO 2020-06-24 04:01:27,507 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+WARNING 2020-06-24 04:01:31,276 log 228 Not Found: /areas/140000/
+WARNING 2020-06-24 04:01:31,277 basehttp 154 "GET /areas/140000/ HTTP/1.1" 404 4132
+INFO 2020-06-24 04:02:00,117 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/urls.py changed, reloading.
+INFO 2020-06-24 04:02:00,762 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:02:28,216 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/urls.py changed, reloading.
+INFO 2020-06-24 04:02:28,821 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:02:59,450 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/urls.py changed, reloading.
+INFO 2020-06-24 04:03:00,046 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-24 04:03:08,201 log 228 Not Found: /addresses/
+INFO 2020-06-24 04:03:08,202 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+WARNING 2020-06-24 04:03:08,203 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4299
+ERROR 2020-06-24 04:03:12,790 log 228 Internal Server Error: /areas/120000/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 37, in get
+    for i in province:
+TypeError: 'Area' object is not iterable
+ERROR 2020-06-24 04:03:12,792 basehttp 154 "GET /areas/120000/ HTTP/1.1" 500 74784
+INFO 2020-06-24 04:04:14,258 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/urls.py changed, reloading.
+INFO 2020-06-24 04:04:14,890 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:04:19,891 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+WARNING 2020-06-24 04:04:19,893 log 228 Not Found: /addresses/
+WARNING 2020-06-24 04:04:19,893 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4301
+ERROR 2020-06-24 04:04:22,983 log 228 Internal Server Error: /areas/120000/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 37, in get
+    for i in province:
+TypeError: 'Area' object is not iterable
+ERROR 2020-06-24 04:04:22,985 basehttp 154 "GET /areas/120000/ HTTP/1.1" 500 74788
+ERROR 2020-06-24 04:04:26,080 log 228 Internal Server Error: /areas/140000/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py", line 37, in get
+    for i in province:
+TypeError: 'Area' object is not iterable
+ERROR 2020-06-24 04:04:26,081 basehttp 154 "GET /areas/140000/ HTTP/1.1" 500 75038
+INFO 2020-06-24 04:06:27,546 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 04:06:28,147 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-24 04:06:33,978 log 228 Not Found: /addresses/
+WARNING 2020-06-24 04:06:33,979 basehttp 154 "GET /addresses/ HTTP/1.1" 404 4301
+INFO 2020-06-24 04:06:33,985 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-24 04:06:36,634 basehttp 154 "GET /areas/130000/ HTTP/1.1" 200 619
+INFO 2020-06-24 04:06:37,968 basehttp 154 "GET /areas/130300/ HTTP/1.1" 200 459
+INFO 2020-06-24 04:06:42,559 basehttp 154 "GET /areas/130000/ HTTP/1.1" 200 619
+INFO 2020-06-24 04:06:43,591 basehttp 154 "GET /areas/130200/ HTTP/1.1" 200 733
+INFO 2020-06-24 04:08:49,036 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 04:08:49,636 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:09:10,576 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 04:09:11,205 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:12:26,908 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 04:12:27,539 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:14:09,513 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 04:14:10,159 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:14:55,920 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 04:14:56,550 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:16:01,817 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/areas/views.py changed, reloading.
+INFO 2020-06-24 04:16:02,442 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:17:43,474 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:17:44,126 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:18:20,219 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:18:20,802 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:19:12,708 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:19:13,311 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:21:07,116 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:21:07,778 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:22:08,808 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:22:09,438 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:31:16,529 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:31:17,089 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:32:45,577 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:32:46,162 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:33:34,051 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:33:34,661 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:33:41,935 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:33:42,513 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:35:21,067 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:35:21,610 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:39:53,551 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:39:54,103 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:42:25,363 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:42:25,921 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:43:06,659 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:43:07,247 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 04:46:43,417 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-24 04:46:44,123 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:24:25,555 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:24:26,200 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:25:02,863 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:25:03,427 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:26:55,293 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:26:55,866 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:27:28,613 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:27:29,195 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:27:36,073 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:27:36,660 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:27:42,082 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:27:42,715 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:31:04,567 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:31:05,148 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:31:42,228 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:31:42,817 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:31:50,486 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:31:51,082 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:32:12,581 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:32:13,168 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:33:01,297 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:33:01,885 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:33:15,228 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:33:15,809 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:33:52,102 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:33:52,710 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:34:30,825 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:34:31,483 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:35:25,834 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:35:26,461 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:36:28,491 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:36:29,076 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:36:40,965 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:36:41,583 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:37:17,008 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:37:17,591 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:39:19,675 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:39:20,317 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:40:31,059 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:40:31,687 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:40:37,589 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-24 06:40:38,174 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-24 06:44:51,079 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-24 06:44:51,750 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 06:46:22,080 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 06:46:23,093 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 06:55:34,283 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 06:55:34,986 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 06:56:05,159 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 06:56:05,769 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 06:56:15,971 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 06:56:16,583 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 06:57:03,422 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 06:57:04,042 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:00:43,589 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:00:44,295 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:01:25,943 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:01:26,539 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:01:39,861 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:01:40,494 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:01:45,998 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:01:46,598 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:02:06,019 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:02:06,623 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:02:23,256 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:02:23,819 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:35:30,061 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:35:30,764 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:36:09,060 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:36:09,652 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:36:35,066 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:36:35,671 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:38:31,899 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:38:32,587 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:39:29,745 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:39:30,372 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:41:00,388 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:41:01,022 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:42:30,029 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 07:42:30,685 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:42:49,379 basehttp 154 "GET /addresses/ HTTP/1.1" 200 72
+INFO 2020-06-25 07:42:49,398 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 07:42:59,708 basehttp 154 "GET /areas/130000/ HTTP/1.1" 200 619
+INFO 2020-06-25 07:43:01,672 basehttp 154 "GET /areas/130200/ HTTP/1.1" 200 733
+INFO 2020-06-25 07:43:15,998 basehttp 154 "OPTIONS /addresses/create/ HTTP/1.1" 200 0
+INFO 2020-06-25 07:43:16,008 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 63
+INFO 2020-06-25 07:43:16,066 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 07:43:16,071 basehttp 154 "GET /addresses/ HTTP/1.1" 200 72
+INFO 2020-06-25 07:43:19,249 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 07:43:19,256 basehttp 154 "GET /addresses/ HTTP/1.1" 200 72
+INFO 2020-06-25 07:44:04,067 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 07:44:04,688 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:47:17,879 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:47:24,695 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 07:47:24,704 basehttp 154 "GET /addresses/ HTTP/1.1" 200 72
+INFO 2020-06-25 07:47:31,111 basehttp 154 "GET /areas/120000/ HTTP/1.1" 200 141
+INFO 2020-06-25 07:47:32,730 basehttp 154 "GET /areas/120100/ HTTP/1.1" 200 831
+INFO 2020-06-25 07:48:35,405 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 63
+INFO 2020-06-25 07:48:35,802 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 07:48:52,567 basehttp 154 "GET /addresses/ HTTP/1.1" 200 72
+INFO 2020-06-25 07:49:01,070 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:50:09,735 basehttp 154 "GET /areas/120000/ HTTP/1.1" 200 141
+INFO 2020-06-25 07:50:12,397 basehttp 154 "GET /areas/120100/ HTTP/1.1" 200 831
+INFO 2020-06-25 07:55:06,421 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 07:55:26,266 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+ERROR 2020-06-25 07:55:26,475 log 228 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'tb_address.email' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 298, in get
+    for address in addresses:
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 274, in __iter__
+    self._fetch_all()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'tb_address.email' in 'field list'")
+ERROR 2020-06-25 07:55:26,486 basehttp 154 "GET /addresses/ HTTP/1.1" 500 205067
+INFO 2020-06-25 07:55:32,147 basehttp 154 "GET /areas/120000/ HTTP/1.1" 200 141
+INFO 2020-06-25 07:55:34,705 basehttp 154 "GET /areas/120100/ HTTP/1.1" 200 831
+INFO 2020-06-25 08:03:16,586 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 08:04:46,871 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 63
+INFO 2020-06-25 08:04:47,543 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+ERROR 2020-06-25 08:05:14,193 log 228 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'tb_address.email' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 298, in get
+    for address in addresses:
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 274, in __iter__
+    self._fetch_all()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'tb_address.email' in 'field list'")
+ERROR 2020-06-25 08:05:14,215 basehttp 154 "GET /addresses/ HTTP/1.1" 500 205067
+INFO 2020-06-25 08:07:06,868 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 08:07:08,226 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 08:24:24,937 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 08:24:33,541 basehttp 154 "GET /areas/110000/ HTTP/1.1" 200 141
+INFO 2020-06-25 08:24:35,581 basehttp 154 "GET /areas/110100/ HTTP/1.1" 200 843
+INFO 2020-06-25 08:28:20,927 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 63
+INFO 2020-06-25 08:28:22,059 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+ERROR 2020-06-25 08:28:22,286 log 228 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1054, "Unknown column 'tb_address.email' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 298, in get
+    for address in addresses:
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 274, in __iter__
+    self._fetch_all()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 55, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/sql/compiler.py", line 1100, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1054, "Unknown column 'tb_address.email' in 'field list'")
+ERROR 2020-06-25 08:28:22,291 basehttp 154 "GET /addresses/ HTTP/1.1" 500 205065
+INFO 2020-06-25 08:28:25,898 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 08:28:27,324 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 08:28:32,749 basehttp 154 "GET /areas/110000/ HTTP/1.1" 200 141
+INFO 2020-06-25 08:28:33,675 basehttp 154 "GET /areas/110100/ HTTP/1.1" 200 843
+INFO 2020-06-25 08:32:26,186 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 08:32:27,677 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 08:35:17,893 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-25 08:35:19,303 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 08:45:09,711 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-25 08:45:11,059 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 08:46:12,121 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/models.py changed, reloading.
+INFO 2020-06-25 08:46:13,490 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 08:58:14,089 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 08:58:42,558 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 328
+INFO 2020-06-25 08:58:43,335 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+ERROR 2020-06-25 08:58:52,267 log 228 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 320, in get
+    'default_address_id': default_id})
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 558, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/serializers/json.py", line 104, in default
+    return super().default(o)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Address is not JSON serializable
+ERROR 2020-06-25 08:58:52,271 basehttp 154 "GET /addresses/ HTTP/1.1" 500 106828
+INFO 2020-06-25 08:59:01,553 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+ERROR 2020-06-25 08:59:01,680 log 228 Internal Server Error: /addresses/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py", line 320, in get
+    'default_address_id': default_id})
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/http/response.py", line 558, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/serializers/json.py", line 104, in default
+    return super().default(o)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Address is not JSON serializable
+ERROR 2020-06-25 08:59:01,681 basehttp 154 "GET /addresses/ HTTP/1.1" 500 106828
+INFO 2020-06-25 09:02:29,303 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:02:35,159 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:02:35,174 basehttp 154 "GET /addresses/ HTTP/1.1" 200 357
+INFO 2020-06-25 09:06:36,535 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 09:06:37,275 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:06:42,082 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:06:42,769 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:07:10,187 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:07:10,792 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:07:20,971 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:07:21,618 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:07:36,121 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:07:36,780 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:07:42,762 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:07:42,780 basehttp 154 "GET /addresses/ HTTP/1.1" 200 357
+INFO 2020-06-25 09:07:50,987 basehttp 154 "GET /areas/120000/ HTTP/1.1" 200 141
+INFO 2020-06-25 09:07:52,316 basehttp 154 "GET /areas/120100/ HTTP/1.1" 200 831
+INFO 2020-06-25 09:08:02,554 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 322
+INFO 2020-06-25 09:08:02,613 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:08:02,626 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+INFO 2020-06-25 09:08:10,479 basehttp 154 "OPTIONS /addresses/2/default/ HTTP/1.1" 200 0
+WARNING 2020-06-25 09:08:10,490 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:08:10,490 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4820
+WARNING 2020-06-25 09:08:11,229 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:08:11,229 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4820
+INFO 2020-06-25 09:08:16,299 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:08:16,317 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+WARNING 2020-06-25 09:08:19,167 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:08:19,168 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4820
+WARNING 2020-06-25 09:08:19,350 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:08:19,351 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4820
+WARNING 2020-06-25 09:08:19,545 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:08:19,546 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4820
+WARNING 2020-06-25 09:08:20,013 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:08:20,014 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4820
+WARNING 2020-06-25 09:08:24,730 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:08:24,731 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4820
+INFO 2020-06-25 09:08:40,153 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:08:40,806 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:08:52,101 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:08:52,789 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:09:00,871 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:09:01,578 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:09:03,439 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:09:03,454 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+WARNING 2020-06-25 09:09:06,805 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:09:06,806 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4830
+WARNING 2020-06-25 09:09:07,464 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:09:07,465 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4830
+INFO 2020-06-25 09:10:24,897 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:10:30,260 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:10:30,274 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+WARNING 2020-06-25 09:10:32,629 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:10:32,630 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4837
+WARNING 2020-06-25 09:10:33,267 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:10:33,267 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4837
+WARNING 2020-06-25 09:10:33,452 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:10:33,452 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4837
+WARNING 2020-06-25 09:10:33,654 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:10:33,655 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4837
+INFO 2020-06-25 09:11:09,232 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:11:11,982 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:11:11,997 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+WARNING 2020-06-25 09:11:17,160 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:11:17,160 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4831
+INFO 2020-06-25 09:11:39,583 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:11:46,519 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:11:46,536 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+WARNING 2020-06-25 09:11:48,548 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:11:48,549 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4830
+INFO 2020-06-25 09:12:18,196 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:12:20,595 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:12:20,609 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+WARNING 2020-06-25 09:12:22,175 log 228 Not Found: /addresses/2/default/
+WARNING 2020-06-25 09:12:22,175 basehttp 154 "PUT /addresses/2/default/ HTTP/1.1" 404 4837
+INFO 2020-06-25 09:12:51,146 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:12:51,778 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:13:24,147 basehttp 154 "GET /areas/130000/ HTTP/1.1" 200 619
+INFO 2020-06-25 09:13:25,282 basehttp 154 "GET /areas/130200/ HTTP/1.1" 200 733
+INFO 2020-06-25 09:13:27,292 basehttp 154 "OPTIONS /addresses/2/ HTTP/1.1" 200 0
+WARNING 2020-06-25 09:13:27,303 log 228 Not Found: /addresses/2/
+WARNING 2020-06-25 09:13:27,304 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 404 4806
+WARNING 2020-06-25 09:13:28,644 log 228 Not Found: /addresses/2/
+WARNING 2020-06-25 09:13:28,645 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 404 4806
+INFO 2020-06-25 09:13:44,364 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:13:47,882 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:13:47,897 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+INFO 2020-06-25 09:13:53,007 basehttp 154 "GET /areas/130000/ HTTP/1.1" 200 619
+INFO 2020-06-25 09:13:54,161 basehttp 154 "GET /areas/130200/ HTTP/1.1" 200 733
+WARNING 2020-06-25 09:13:56,900 log 228 Not Found: /addresses/2/
+WARNING 2020-06-25 09:13:56,900 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 404 4806
+INFO 2020-06-25 09:14:07,430 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:14:10,681 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 200 356
+INFO 2020-06-25 09:14:43,114 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:14:46,694 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:14:46,708 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+INFO 2020-06-25 09:14:51,141 basehttp 154 "GET /areas/220000/ HTTP/1.1" 200 539
+INFO 2020-06-25 09:14:52,472 basehttp 154 "GET /areas/220400/ HTTP/1.1" 200 279
+WARNING 2020-06-25 09:14:55,083 log 228 Not Found: /addresses/2/
+WARNING 2020-06-25 09:14:55,083 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 404 4798
+WARNING 2020-06-25 09:14:55,812 log 228 Not Found: /addresses/2/
+WARNING 2020-06-25 09:14:55,813 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 404 4798
+INFO 2020-06-25 09:15:27,704 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-25 09:15:30,435 log 228 Not Found: /addresses/2/
+WARNING 2020-06-25 09:15:30,435 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 404 4806
+WARNING 2020-06-25 09:15:31,007 log 228 Not Found: /addresses/2/
+WARNING 2020-06-25 09:15:31,007 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 404 4806
+WARNING 2020-06-25 09:15:31,178 log 228 Not Found: /addresses/2/
+WARNING 2020-06-25 09:15:31,178 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 404 4806
+INFO 2020-06-25 09:15:53,257 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:15:55,932 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 200 356
+INFO 2020-06-25 09:16:53,323 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:16:56,440 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:16:56,454 basehttp 154 "GET /addresses/ HTTP/1.1" 200 641
+INFO 2020-06-25 09:17:00,324 basehttp 154 "GET /areas/130000/ HTTP/1.1" 200 619
+INFO 2020-06-25 09:17:02,051 basehttp 154 "GET /areas/130800/ HTTP/1.1" 200 709
+INFO 2020-06-25 09:17:04,580 basehttp 154 "PUT /addresses/2/ HTTP/1.1" 200 356
+INFO 2020-06-25 09:18:08,597 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:18:09,238 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:18:24,813 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:18:25,458 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:19:16,738 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 09:19:17,418 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:19:31,330 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:19:43,175 basehttp 154 "GET /areas/130000/ HTTP/1.1" 200 619
+INFO 2020-06-25 09:19:44,119 basehttp 154 "GET /areas/130100/ HTTP/1.1" 200 1159
+INFO 2020-06-25 09:19:55,764 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 292
+INFO 2020-06-25 09:19:57,188 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:19:57,207 basehttp 154 "GET /addresses/ HTTP/1.1" 200 895
+INFO 2020-06-25 09:20:05,077 basehttp 154 "DELETE /addresses/2/ HTTP/1.1" 200 61
+INFO 2020-06-25 09:20:05,142 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:20:05,158 basehttp 154 "GET /addresses/ HTTP/1.1" 200 611
+INFO 2020-06-25 09:20:52,009 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 09:20:52,672 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:21:53,802 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/urls.py changed, reloading.
+INFO 2020-06-25 09:21:54,436 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:22:27,444 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 09:22:28,092 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:23:49,653 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-06-25 09:23:50,342 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:23:54,752 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:24:43,320 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:24:43,334 basehttp 154 "GET /addresses/ HTTP/1.1" 200 611
+INFO 2020-06-25 09:24:48,575 basehttp 154 "OPTIONS /addresses/3/title/ HTTP/1.1" 200 0
+INFO 2020-06-25 09:24:48,586 basehttp 154 "PUT /addresses/3/title/ HTTP/1.1" 200 73
+INFO 2020-06-25 09:24:59,411 basehttp 154 "GET /areas/110000/ HTTP/1.1" 200 141
+INFO 2020-06-25 09:25:00,460 basehttp 154 "GET /areas/110100/ HTTP/1.1" 200 843
+INFO 2020-06-25 09:25:11,229 basehttp 154 "POST /addresses/create/ HTTP/1.1" 200 353
+INFO 2020-06-25 09:25:12,343 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:25:12,362 basehttp 154 "GET /addresses/ HTTP/1.1" 200 932
+INFO 2020-06-25 09:25:16,061 basehttp 154 "OPTIONS /addresses/4/default/ HTTP/1.1" 200 0
+INFO 2020-06-25 09:25:16,077 basehttp 154 "PUT /addresses/4/default/ HTTP/1.1" 200 73
+INFO 2020-06-25 09:25:16,137 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:25:16,156 basehttp 154 "GET /addresses/ HTTP/1.1" 200 932
+INFO 2020-06-25 09:25:21,131 basehttp 154 "GET /areas/150000/ HTTP/1.1" 200 743
+INFO 2020-06-25 09:25:22,237 basehttp 154 "GET /areas/150300/ HTTP/1.1" 200 239
+INFO 2020-06-25 09:25:30,914 basehttp 154 "OPTIONS /addresses/3/ HTTP/1.1" 200 0
+INFO 2020-06-25 09:25:30,934 basehttp 154 "PUT /addresses/3/ HTTP/1.1" 200 338
+INFO 2020-06-25 09:26:41,809 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:27:06,940 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-25 09:27:40,116 basehttp 154 "OPTIONS /password/ HTTP/1.1" 200 0
+INFO 2020-06-25 09:27:40,421 basehttp 154 "PUT /password/ HTTP/1.1" 200 27
+INFO 2020-06-25 09:27:52,805 basehttp 154 "OPTIONS /login/ HTTP/1.1" 200 0
+INFO 2020-06-25 09:27:52,959 basehttp 154 "POST /login/ HTTP/1.1" 200 27
+WARNING 2020-06-25 09:27:53,353 log 228 Not Found: /carts/simple/
+WARNING 2020-06-25 09:27:53,354 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5329
+WARNING 2020-06-25 09:27:55,097 log 228 Not Found: /browse_histories/
+WARNING 2020-06-25 09:27:55,098 basehttp 154 "GET /browse_histories/ HTTP/1.1" 404 5341
+INFO 2020-06-25 09:27:55,101 basehttp 154 "GET /info/ HTTP/1.1" 200 146
+INFO 2020-06-25 09:27:57,737 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-06-25 09:27:57,755 basehttp 154 "GET /addresses/ HTTP/1.1" 200 938

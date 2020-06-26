@@ -37,11 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'corsheaders',
+    'django_crontab',
+
     'users',
     'verifications',
     'oauth',
     'areas',
+    'contents',
+    'goods',
 
 ]
 
@@ -234,3 +239,26 @@ EMAIL_FROM = 'LH<b1151418000@163.com>'
 
 # 邮箱验证链接
 EMAIL_VERIFY_URL = 'http://www.meiduo.site:8080/success_verify_email.html?token='
+
+
+# 该配置项，指定django使用的文件存储后端
+DEFAULT_FILE_STORAGE = "meiduo_mall.utils.fastdfs.fastdfs_storage.FastDFSStorage"
+
+# 自定义fdfs文件存储服务器的域名
+FDFS_URL = "http://image.meiduo.site:8888/"
+
+# FDFS需要的配置文件路径(即: client.conf文件绝对路径).
+FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
+
+GENERATED_STATIC_HTML_DIR = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), 'front_end_pc')
+
+# 解决 crontab 中文问题
+CRONTAB_COMMAND_PREFIX = 'LANG_ALL=zh_cn.UTF-8'
+
+# 定时任务
+CRONJOBS = [
+    # 每1分钟生成一次首页静态文件
+    # ('*/1 * * * *', 'contents.generate_index.generate_index_html', '>> ' + os.path.join(os.path.dirname(BASE_DIR), 'logs/crontab.log'))
+    ('*/1 * * * *', 'contens.generate_index.generate_index_html', '>> '
+     + os.path.join(os.path.dirname(BASE_DIR), 'logs/crontab.log'))
+]

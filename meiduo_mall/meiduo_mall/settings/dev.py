@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'corsheaders',
     'django_crontab',
+    'haystack',
 
     'users',
     'verifications',
@@ -262,3 +263,19 @@ CRONJOBS = [
     ('*/1 * * * *', 'contens.generate_index.generate_index_html', '>> '
      + os.path.join(os.path.dirname(BASE_DIR), 'logs/crontab.log'))
 ]
+
+
+# Haystack
+HAYSTACK_CONNECTIONS = {
+    'default': {
+        'ENGINE': 'haystack.backends.elasticsearch_backend.ElasticsearchSearchEngine',
+        'URL': 'http://172.16.81.130:9200/',  # Elasticsearch服务器ip地址，端口号固定为9200
+        'INDEX_NAME': 'meiduo_mall',  # Elasticsearch建立的索引库的名称
+    },
+}
+
+# 当添加、修改、删除数据时，自动生成索引
+HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
+
+# 可以在 dev.py 中添加如下代码, 用于决定每页显示数据条数:
+HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5

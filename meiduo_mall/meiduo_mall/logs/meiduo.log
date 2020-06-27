@@ -2105,3 +2105,328 @@ INFO 2020-06-26 16:06:11,784 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/mei
 INFO 2020-06-26 16:06:12,504 autoreload 597 Watching for file changes with StatReloader
 INFO 2020-06-26 16:07:21,078 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
 INFO 2020-06-26 16:07:21,873 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 10:49:48,832 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-27 10:51:03,339 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 10:51:03,340 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 10:52:00,300 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 10:52:00,300 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 10:53:20,437 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 10:53:20,437 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 10:54:29,841 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 10:54:29,842 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 10:56:04,043 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 10:56:04,044 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 10:57:05,551 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 11:00:34,421 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-27 11:00:37,824 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:00:37,825 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:00:40,973 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:00:40,975 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:00:40,983 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:00:40,986 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:00:45,762 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:00:46,801 basehttp 154 "GET /list/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 407
+INFO 2020-06-27 11:00:48,303 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:00:48,610 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:00:54,236 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 431
+INFO 2020-06-27 11:00:54,898 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.1" 200 407
+INFO 2020-06-27 11:00:55,770 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+WARNING 2020-06-27 11:01:02,022 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:01:02,024 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:01:02,027 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:01:02,033 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:01:49,477 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 431
+WARNING 2020-06-27 11:01:50,920 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:01:50,922 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:01:50,928 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:01:50,934 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+WARNING 2020-06-27 11:02:02,592 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:02,593 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:02:02,595 basehttp 154 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+WARNING 2020-06-27 11:02:02,602 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:02,603 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:04,459 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:04,462 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:04,463 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:04,463 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:05,307 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:05,308 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:05,312 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:05,313 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:06,716 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:06,716 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:06,719 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:06,720 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:07,511 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:07,514 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:07,514 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:07,515 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:08,298 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:08,299 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:08,303 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:08,304 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:08,841 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:08,845 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:08,846 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:08,846 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:09,405 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:09,408 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:09,409 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:09,410 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:10,063 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:10,065 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:10,066 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:10,066 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:10,621 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:10,625 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:10,626 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:10,627 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:11,458 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:11,463 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:11,464 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:11,464 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:11,898 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:11,901 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:11,901 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:11,902 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:12,294 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:12,297 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:12,298 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:12,298 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:13,011 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:13,015 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:13,016 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:13,016 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:13,532 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:13,533 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:13,537 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:13,538 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:15,160 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:15,162 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:15,163 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:15,163 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:15,675 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:15,678 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:15,680 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:15,681 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:16,351 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:16,354 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:16,354 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:16,355 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:16,874 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:16,878 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:16,879 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:16,879 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:17,370 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:17,372 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:17,372 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:17,373 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:23,039 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:23,043 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:23,043 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:23,044 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:23,722 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:23,723 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:23,727 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:23,728 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:24,736 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:24,741 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:24,741 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:24,742 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:25,340 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:25,340 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:25,343 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:25,343 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:37,214 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:37,214 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:02:39,764 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:39,768 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:02:39,769 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:02:39,777 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:02:43,337 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:02:44,884 basehttp 154 "GET /list/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 407
+INFO 2020-06-27 11:02:46,756 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:02:48,016 basehttp 154 "GET /list/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 407
+INFO 2020-06-27 11:02:48,610 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:02:52,611 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:02:53,762 basehttp 154 "GET /list/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 407
+WARNING 2020-06-27 11:02:56,745 log 228 Not Found: /browse_histories/
+WARNING 2020-06-27 11:02:56,746 basehttp 154 "POST /browse_histories/ HTTP/1.1" 404 5690
+WARNING 2020-06-27 11:02:56,749 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:02:56,749 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:03:11,628 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:03:13,308 basehttp 154 "GET /list/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 407
+INFO 2020-06-27 11:03:15,780 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:03:15,968 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+WARNING 2020-06-27 11:04:05,465 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:04:05,467 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:04:05,471 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:04:05,482 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:08:00,628 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 11:08:05,686 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:08:05,690 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+WARNING 2020-06-27 11:08:05,712 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:08:05,714 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:08:20,072 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:08:20,073 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:08:23,966 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+WARNING 2020-06-27 11:08:23,994 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:08:24,002 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:08:24,006 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:20:04,714 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=price HTTP/1.1" 200 431
+INFO 2020-06-27 11:20:05,407 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-sales HTTP/1.1" 200 407
+INFO 2020-06-27 11:20:06,885 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:20:18,316 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 11:20:21,586 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:20:21,592 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+WARNING 2020-06-27 11:20:21,595 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:20:21,596 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:21:58,499 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-27 11:21:59,143 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 11:22:00,056 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:22:01,499 basehttp 154 "GET /list/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 407
+INFO 2020-06-27 11:22:02,620 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 432
+INFO 2020-06-27 11:22:25,558 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-27 11:22:26,243 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 11:22:36,515 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-27 11:22:37,210 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 11:22:37,658 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:22:37,662 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+WARNING 2020-06-27 11:22:37,669 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:22:37,670 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:22:40,469 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1487
+INFO 2020-06-27 11:22:41,750 basehttp 154 "GET /list/115/skus/?page=3&page_size=5&ordering=-create_time HTTP/1.1" 200 1155
+INFO 2020-06-27 11:22:42,596 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1487
+INFO 2020-06-27 11:24:49,434 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-27 11:24:50,162 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 11:24:54,742 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:24:54,750 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+WARNING 2020-06-27 11:24:54,754 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:24:54,754 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+WARNING 2020-06-27 11:25:01,180 log 228 Not Found: /carts/simple/
+INFO 2020-06-27 11:25:01,181 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+WARNING 2020-06-27 11:25:01,184 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:25:01,187 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+WARNING 2020-06-27 11:25:10,369 log 228 Not Found: /carts/simple/
+INFO 2020-06-27 11:25:10,373 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+WARNING 2020-06-27 11:25:10,376 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:25:10,378 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+WARNING 2020-06-27 11:25:12,433 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 11:25:12,435 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5677
+INFO 2020-06-27 11:25:12,438 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 11:25:12,447 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+INFO 2020-06-27 11:37:59,517 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-27 11:38:00,261 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 11:39:03,311 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-27 11:39:04,024 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 11:39:22,936 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-27 11:39:23,669 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 13:15:45,283 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 13:15:51,150 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-06-27 13:15:51,157 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+WARNING 2020-06-27 13:15:51,163 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 13:15:51,164 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
+WARNING 2020-06-27 13:15:52,347 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 13:15:52,348 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
+INFO 2020-06-27 13:15:57,758 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-27 13:16:00,314 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+WARNING 2020-06-27 13:16:02,147 log 228 Not Found: /search/
+WARNING 2020-06-27 13:16:02,147 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-27 13:16:02,855 log 228 Not Found: /search/
+WARNING 2020-06-27 13:16:02,856 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-27 13:16:03,366 log 228 Not Found: /search/
+WARNING 2020-06-27 13:16:03,367 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=5&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-27 13:16:04,611 log 228 Not Found: /search/
+WARNING 2020-06-27 13:16:04,611 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=5 HTTP/1.1" 404 1762
+INFO 2020-06-27 13:16:05,512 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=5 HTTP/1.1" 200 1699
+INFO 2020-06-27 13:16:14,650 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+INFO 2020-06-27 13:16:21,250 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=5 HTTP/1.1" 200 1699
+INFO 2020-06-27 13:18:32,411 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+WARNING 2020-06-27 13:18:33,712 log 228 Not Found: /search/
+WARNING 2020-06-27 13:18:33,713 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-27 13:18:34,463 log 228 Not Found: /search/
+WARNING 2020-06-27 13:18:34,463 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=5 HTTP/1.1" 404 1762
+INFO 2020-06-27 13:18:44,140 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-27 13:18:44,837 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 13:18:47,853 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2723
+WARNING 2020-06-27 13:18:49,958 log 228 Not Found: /search/
+WARNING 2020-06-27 13:18:49,958 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=20 HTTP/1.1" 404 1763
+WARNING 2020-06-27 13:18:50,784 log 228 Not Found: /search/
+WARNING 2020-06-27 13:18:50,785 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=20 HTTP/1.1" 404 1763
+WARNING 2020-06-27 13:18:51,006 log 228 Not Found: /search/
+WARNING 2020-06-27 13:18:51,006 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=20 HTTP/1.1" 404 1763
+WARNING 2020-06-27 13:18:52,155 log 228 Not Found: /search/
+WARNING 2020-06-27 13:18:52,155 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=20 HTTP/1.1" 404 1763
+INFO 2020-06-27 13:18:52,756 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=20 HTTP/1.1" 200 2723
+INFO 2020-06-27 13:19:01,591 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-27 13:19:02,304 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 13:20:27,977 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-27 13:21:03,858 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+WARNING 2020-06-27 13:21:06,498 log 228 Not Found: /search/
+WARNING 2020-06-27 13:21:06,498 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=5 HTTP/1.1" 404 1762
+INFO 2020-06-27 13:21:55,730 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=5 HTTP/1.1" 200 1699
+INFO 2020-06-27 13:24:41,784 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-27 13:24:48,003 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 13:24:48,003 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
+INFO 2020-06-27 13:24:51,126 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-27 13:26:39,366 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-27 13:26:39,759 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-27 13:26:40,150 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-27 13:26:45,139 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 13:26:45,139 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
+ERROR 2020-06-27 13:26:47,958 log 228 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/haystack/views.py", line 51, in __call__
+    return self.create_response()
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py", line 108, in create_response
+    'count': data['paginator'].count()  # 搜索的结果总数
+TypeError: 'int' object is not callable
+ERROR 2020-06-27 13:26:47,961 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 500 71869
+INFO 2020-06-27 13:27:06,103 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-27 13:27:10,649 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 13:27:10,650 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
+INFO 2020-06-27 13:27:13,155 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-27 13:27:14,983 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+INFO 2020-06-27 13:27:16,129 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=5 HTTP/1.1" 200 1699
+INFO 2020-06-27 13:29:26,064 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-06-27 13:29:31,191 log 228 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/haystack/views.py", line 51, in __call__
+    return self.create_response()
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py", line 108, in create_response
+    'count': data['paginator'].count()  # 搜索的结果总数
+TypeError: 'int' object is not callable
+ERROR 2020-06-27 13:29:31,194 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 500 71869
+WARNING 2020-06-27 13:29:33,856 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 13:29:33,856 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
+ERROR 2020-06-27 13:29:36,324 log 228 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/haystack/views.py", line 51, in __call__
+    return self.create_response()
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py", line 108, in create_response
+    'count': data['paginator'].count()  # 搜索的结果总数
+TypeError: 'int' object is not callable
+ERROR 2020-06-27 13:29:36,324 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 500 71869
+INFO 2020-06-27 13:29:37,291 basehttp 154 "GET /search/?q=&page=1&page_size=6 HTTP/1.1" 200 2
+INFO 2020-06-27 13:29:43,958 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-27 13:29:46,370 log 228 Not Found: /carts/simple/
+WARNING 2020-06-27 13:29:46,370 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
+INFO 2020-06-27 13:29:53,833 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699

@@ -2430,3 +2430,180 @@ INFO 2020-06-27 13:29:43,958 autoreload 597 Watching for file changes with StatR
 WARNING 2020-06-27 13:29:46,370 log 228 Not Found: /carts/simple/
 WARNING 2020-06-27 13:29:46,370 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
 INFO 2020-06-27 13:29:53,833 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:34:31,811 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:34:53,266 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+INFO 2020-06-28 01:35:03,048 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-28 01:35:03,733 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-28 01:35:07,106 log 228 Not Found: /carts/simple/
+WARNING 2020-06-28 01:35:07,106 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
+INFO 2020-06-28 01:35:09,030 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:35:31,904 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:36:55,600 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+WARNING 2020-06-28 01:37:00,934 log 228 Not Found: /search/
+WARNING 2020-06-28 01:37:00,935 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:37:01,487 log 228 Not Found: /search/
+WARNING 2020-06-28 01:37:01,488 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=5 HTTP/1.1" 404 1762
+INFO 2020-06-28 01:37:18,171 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-28 01:37:19,500 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:37:20,849 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2723
+WARNING 2020-06-28 01:37:22,840 log 228 Not Found: /search/
+WARNING 2020-06-28 01:37:22,840 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=20 HTTP/1.1" 404 1763
+WARNING 2020-06-28 01:37:23,652 log 228 Not Found: /search/
+WARNING 2020-06-28 01:37:23,653 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=20 HTTP/1.1" 404 1763
+WARNING 2020-06-28 01:37:24,156 log 228 Not Found: /search/
+WARNING 2020-06-28 01:37:24,156 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=20 HTTP/1.1" 404 1763
+INFO 2020-06-28 01:37:25,506 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=20 HTTP/1.1" 200 2723
+INFO 2020-06-28 01:37:49,785 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-28 01:37:51,205 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-06-28 01:37:53,989 log 228 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/haystack/views.py", line 51, in __call__
+    return self.create_response()
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py", line 107, in create_response
+    'page_size': data['paginator'].paginator.num_pages,  # 每页数量
+AttributeError: 'Paginator' object has no attribute 'paginator'
+ERROR 2020-06-28 01:37:53,992 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 500 74089
+ERROR 2020-06-28 01:37:56,289 log 228 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/haystack/views.py", line 51, in __call__
+    return self.create_response()
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py", line 107, in create_response
+    'page_size': data['paginator'].paginator.num_pages,  # 每页数量
+AttributeError: 'Paginator' object has no attribute 'paginator'
+ERROR 2020-06-28 01:37:56,291 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 500 74089
+INFO 2020-06-28 01:38:24,734 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:38:30,531 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2715
+INFO 2020-06-28 01:38:49,127 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:38:53,480 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2715
+INFO 2020-06-28 01:39:00,222 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2715
+INFO 2020-06-28 01:39:41,733 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2715
+INFO 2020-06-28 01:39:58,277 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2715
+INFO 2020-06-28 01:42:47,411 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2715
+INFO 2020-06-28 01:43:00,561 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2715
+INFO 2020-06-28 01:45:58,539 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-28 01:45:59,855 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:46:12,775 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:46:15,768 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=2 HTTP/1.1" 200 1016
+INFO 2020-06-28 01:49:28,569 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:49:30,597 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-28 01:49:32,152 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:49:39,651 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:49:42,014 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+WARNING 2020-06-28 01:49:43,192 log 228 Not Found: /search/
+WARNING 2020-06-28 01:49:43,193 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:49:43,802 log 228 Not Found: /search/
+WARNING 2020-06-28 01:49:43,803 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:49:46,048 log 228 Not Found: /search/
+WARNING 2020-06-28 01:49:46,049 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=5&page_size=5 HTTP/1.1" 404 1762
+INFO 2020-06-28 01:50:02,036 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+WARNING 2020-06-28 01:50:06,434 log 228 Not Found: /carts/simple/
+WARNING 2020-06-28 01:50:06,435 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831
+INFO 2020-06-28 01:50:09,021 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:52:48,082 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-28 01:52:49,378 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-06-28 01:52:52,653 log 228 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/haystack/views.py", line 51, in __call__
+    return self.create_response()
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py", line 108, in create_response
+    'count': data['page'].num_pages  # 搜索的结果总数
+AttributeError: 'Page' object has no attribute 'num_pages'
+ERROR 2020-06-28 01:52:52,657 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 500 74286
+ERROR 2020-06-28 01:52:55,987 log 228 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/haystack/views.py", line 51, in __call__
+    return self.create_response()
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py", line 108, in create_response
+    'count': data['page'].num_pages  # 搜索的结果总数
+AttributeError: 'Page' object has no attribute 'num_pages'
+ERROR 2020-06-28 01:52:55,989 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 500 74286
+INFO 2020-06-28 01:53:17,783 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-28 01:53:19,110 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:53:25,008 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:53:29,676 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+INFO 2020-06-28 01:53:32,396 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=5 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:53:40,522 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:54:43,554 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-28 01:54:44,986 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:55:11,395 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:55:14,313 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1709
+INFO 2020-06-28 01:55:17,936 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1022
+WARNING 2020-06-28 01:55:18,872 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:18,873 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:55:19,524 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:19,525 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:55:22,130 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:22,130 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=5&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:55:23,399 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:23,400 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:55:24,982 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:24,982 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:55:25,138 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:25,138 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=5&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:55:26,951 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:26,951 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=5 HTTP/1.1" 404 1762
+INFO 2020-06-28 01:55:27,450 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1022
+INFO 2020-06-28 01:55:28,160 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=5 HTTP/1.1" 200 1709
+INFO 2020-06-28 01:55:41,373 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:55:44,414 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1709
+INFO 2020-06-28 01:55:47,208 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1022
+WARNING 2020-06-28 01:55:48,510 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:48,511 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:55:48,940 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:48,941 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=4&page_size=5 HTTP/1.1" 404 1762
+WARNING 2020-06-28 01:55:50,012 log 228 Not Found: /search/
+WARNING 2020-06-28 01:55:50,013 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=5&page_size=5 HTTP/1.1" 404 1762
+INFO 2020-06-28 01:56:02,940 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-28 01:56:04,441 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 01:56:06,667 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:56:09,454 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+INFO 2020-06-28 01:56:10,845 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=5 HTTP/1.1" 200 1699
+INFO 2020-06-28 01:56:31,651 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=5 HTTP/1.1" 200 1016
+INFO 2020-06-28 02:03:06,450 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-28 02:03:07,723 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 02:05:26,378 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 02:05:29,211 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 02:06:48,018 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 02:06:51,924 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 1699
+INFO 2020-06-28 02:08:55,460 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 02:08:58,448 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2037
+INFO 2020-06-28 02:09:00,321 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=6 HTTP/1.1" 200 678
+INFO 2020-06-28 02:09:02,277 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2037
+INFO 2020-06-28 02:09:06,609 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=6 HTTP/1.1" 200 678
+INFO 2020-06-28 02:09:09,501 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2037
+INFO 2020-06-28 02:09:19,698 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=6 HTTP/1.1" 200 678
+WARNING 2020-06-28 02:09:23,024 log 228 Not Found: /search/
+WARNING 2020-06-28 02:09:23,024 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=3&page_size=6 HTTP/1.1" 404 1762
+INFO 2020-06-28 02:09:24,227 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=2&page_size=6 HTTP/1.1" 200 678
+INFO 2020-06-28 02:09:29,815 basehttp 154 "GET /search/?q=%E5%8D%8E%E4%B8%BA&page=1&page_size=6 HTTP/1.1" 200 2037
+INFO 2020-06-28 02:09:42,515 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/settings/dev.py changed, reloading.
+INFO 2020-06-28 02:09:43,417 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 02:09:52,538 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/goods/views.py changed, reloading.
+INFO 2020-06-28 02:09:53,337 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-28 02:43:04,276 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-28 02:43:23,367 log 228 Not Found: /carts/simple/
+WARNING 2020-06-28 02:43:23,368 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 5831

@@ -110,3 +110,5 @@ class MySearchView(SearchView):
 
         # 默认JsonResponse只能传入字典，如果传入列表必须设置safe=False
         return JsonResponse(data_list, safe=False)
+
+

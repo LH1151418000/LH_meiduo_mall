@@ -251,6 +251,7 @@ FDFS_URL = "http://image.meiduo.site:8888/"
 # FDFS需要的配置文件路径(即: client.conf文件绝对路径).
 FDFS_CLIENT_CONF = os.path.join(BASE_DIR, 'utils/fastdfs/client.conf')
 
+# 自定义静态文件保存的跟目录
 GENERATED_STATIC_HTML_DIR = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), 'front_end_pc')
 
 # 解决 crontab 中文问题

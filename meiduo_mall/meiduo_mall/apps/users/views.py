@@ -9,6 +9,7 @@ from django_redis import get_redis_connection
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import User, Address
 from celery_tasks.email.tasks import send_verify_email
+from goods.models import SKU
 
 # 设置log日志
 logger = logging.getLogger('django')
@@ -521,3 +522,44 @@ class ChangePasswordView(LoginRequiredMixin, View):
 
         # # 响应密码修改结果：重定向到登录界面
         return response
+
+
+class UserBrowseHistory(LoginRequiredMixin, View):
+
+    def post(self, request):
+        json_dict = json.loads(request.body)
+        try:
+            sku_id = json_dict.get('sku_id')
+        except SKU.DoesNotExist:
+            return JsonResponse({'code': 400, 'errmsg': '商品不存在'})
+        SKU.objects.get(id=sku_id)
+
+        redis_conn = get_redis_connection('history')
+        pl = redis_conn.pipeline()
+        user_id = request.user.id
+        pl.lrem('history_%s' % user_id, 0, sku_id)
+        pl.lpush('history_%s' % user_id, sku_id)
+        pl.ltrim('history_%s' % user_id, 0, 4)
+        pl.execute()
+
+        return JsonResponse({'code': 0, 'errmsg': 'ok'})
+
+    def get(self, request):
+        redis_conn = get_redis_connection('history')
+        sku_ids = redis_conn.lrange('history_%s' % request.user.id, 0, -1)
+
+        skus = []
+        for sku_id in sku_ids:
+            sku = SKU.objects.get(id=sku_id)
+            skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'default_image_url': sku.default_image_url,
+                'price': sku.price
+            })
+
+        return JsonResponse({
+            'code': 0,
+            'errmsg': 'ok',
+            'skus': skus
+        })

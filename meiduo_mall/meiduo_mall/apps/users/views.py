@@ -10,7 +10,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import User, Address
 from celery_tasks.email.tasks import send_verify_email
 from goods.models import SKU
-
+from carts.utils import merge_cart_cookie_to_redis
 # 设置log日志
 logger = logging.getLogger('django')
 
@@ -139,7 +139,7 @@ class LoginView(View):
         response = JsonResponse({'code': 0, 'errmsg': 'ok'})
         response.set_cookie('username', username)
 
-        return response
+        return merge_cart_cookie_to_redis(request, user, response)
 
 
 # 用户登出

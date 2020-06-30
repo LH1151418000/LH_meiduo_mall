@@ -13,6 +13,7 @@ from django.db import DatabaseError
 from django.contrib.auth import login
 from oauth.models import OAuthQQUser
 from oauth.utils import generate_access_token
+from carts.utils import merge_cart_cookie_to_redis
 # Create your views here.
 
 
@@ -62,7 +63,8 @@ class QQUserView(View):
 
             response = http.JsonResponse({'code': 0, 'errmsg': 'ok'})
             response.set_cookie('username', user.username, max_age=3600 * 24 * 14)
-            return response
+            return merge_cart_cookie_to_redis(request, user, response)
+
 
     def post(self, request):
 
@@ -117,7 +119,7 @@ class QQUserView(View):
 
         response = http.JsonResponse({'code': 0, 'errmsg': 'ok'})
         response.set_cookie('username', user.username, max_age=3600 * 24 * 14)
-        return response
+        return merge_cart_cookie_to_redis(request, user, response)
 
 
 

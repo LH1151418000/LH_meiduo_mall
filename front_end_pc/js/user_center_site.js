@@ -8,7 +8,7 @@ var vm = new Vue({
         cities: [],
         districts: [],
         addresses: {},
-        limit: '',
+        limit: '20',
         default_address_id: '',
         form_address: {
             receiver: '',

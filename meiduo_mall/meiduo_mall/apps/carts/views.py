@@ -7,7 +7,72 @@ from django.views import View
 from django_redis import get_redis_connection
 from goods.models import SKU
 from .utils import *
+
+
 # Create your views here.
+'''
+class CartsSimpleView(View):
+
+    def get(self, request):
+        user = request.user
+        cart_dict = {}
+
+        if user.is_authenticated:
+            # 已登录
+            redis_carts, redis_selected = get_redis_carts(request)
+            # 拆包获取商品id和商品个数
+            for sku_id, count in redis_carts.items():
+                cart_dict[int(sku_id)] = {'count': int(count), 'selected': sku_id in redis_selected}
+        else:
+            # 未登录
+            cart_dict = get_carts_from_cookie(request)
+
+        cart_skus = []
+
+        sku_ids = cart_dict.keys()
+        skus = SKU.objects.filter(id__in=sku_ids)
+
+        for sku in skus:
+            # 未勾选不显示
+            # if cart_dict[sku.id]['selected']:
+            cart_skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'count': cart_dict[sku.id]['count'],
+                'default_image_url': sku.default_image_url
+            })
+        return JsonResponse({'code': 0, 'errmsg': 'OK', 'cart_skus': cart_skus})
+'''
+
+
+class CartsSimpleView(View):
+
+    def get(self, request):
+        user = request.user
+        if user.is_authenticated:
+            cart_dict = {}
+            #
+            redis_cart, redis_selected = get_redis_carts(request)
+            for sku_id, count in redis_cart.items():
+                cart_dict[int(sku_id)] = {
+                    'count': int(count),
+                    'selected': sku_id in redis_selected
+                }
+
+        else:
+            cart_dict = get_carts_from_cookie(request)
+
+        cart_skus = []
+        sku_ids = cart_dict.keys()
+        skus = SKU.objects.filter(id__in=sku_ids)
+        for sku in skus:
+            cart_skus.append({
+                'id': sku.id,
+                'name': sku.name,
+                'count': cart_dict[sku.id]['count'],
+                'default_image_url': sku.default_image_url
+            })
+        return JsonResponse({'code': 0, 'errmsg': 'ok', 'cart_skus': cart_skus})
 
 
 class CartSelectAllView(View):

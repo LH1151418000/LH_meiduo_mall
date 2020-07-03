@@ -56,7 +56,8 @@ def merge_cart_cookie_to_redis(request, user, response):
         redis_cart.hset('carts_%s' % user.id, sku_id, item['count'])
         if item['selected']:
             redis_cart.sadd('selected_%s' % user.id, sku_id)
-
+        else:
+            redis_cart.srem('selected_%s' % user.id, sku_id)
     response.delete_cookie('carts')
     return response
 

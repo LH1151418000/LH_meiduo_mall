@@ -170,7 +170,8 @@ class UserInfoView(LoginRequiredMixin, View):
         info_data = {'username': request.user.username,
                      'mobile': request.user.mobile,
                      'email': request.user.email,
-                     'email_active': request.user.email_active}
+                     'email_active': request.user.email_active
+                     }
         # 返回前端需要的用户数据 判断是否是此用户登录
         return JsonResponse({'code': 0, 'errmsg': 'ok', 'info_data': info_data})
 
@@ -219,7 +220,7 @@ class VerifyEmailView(View):
         return JsonResponse({'code': 0, 'errmsg': 'ok'})
 
 
-class CreateAddressView(View):
+class CreateAddressView(LoginRequiredMixin, View):
     def post(self, request):
         try:
             count = Address.objects.filter(user=request.user, is_deleted=False).count()
@@ -291,7 +292,7 @@ class CreateAddressView(View):
         return JsonResponse({'code': 0, 'errmsg': 'ok', 'address': address_dict})
 
 
-class AddressView(View):
+class AddressView(LoginRequiredMixin, View):
     """用户收货地址"""
 
     def get(self, request):

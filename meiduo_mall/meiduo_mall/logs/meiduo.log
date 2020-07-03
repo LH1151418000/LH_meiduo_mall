@@ -4276,3 +4276,432 @@ WARNING 2020-06-30 04:54:44,780 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6
 INFO 2020-06-30 04:54:46,514 basehttp 154 "GET /carts/ HTTP/1.1" 200 1196
 INFO 2020-06-30 05:00:16,686 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/utils.py changed, reloading.
 INFO 2020-06-30 05:00:17,600 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-30 10:26:42,345 autoreload 597 Watching for file changes with StatReloader
+WARNING 2020-06-30 10:26:49,358 log 228 Not Found: /carts/simple/
+WARNING 2020-06-30 10:26:49,359 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6311
+INFO 2020-06-30 10:26:53,916 basehttp 154 "GET /carts/ HTTP/1.1" 200 1196
+WARNING 2020-06-30 10:26:56,713 log 228 Not Found: /carts/simple/
+WARNING 2020-06-30 10:26:56,714 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6311
+WARNING 2020-06-30 10:26:58,151 log 228 Not Found: /carts/simple/
+WARNING 2020-06-30 10:26:58,152 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6311
+WARNING 2020-06-30 10:26:59,372 log 228 Not Found: /carts/simple/
+WARNING 2020-06-30 10:26:59,372 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6311
+WARNING 2020-06-30 10:27:00,940 log 228 Not Found: /carts/simple/
+WARNING 2020-06-30 10:27:00,940 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6311
+WARNING 2020-06-30 10:27:03,113 log 228 Not Found: /carts/simple/
+WARNING 2020-06-30 10:27:03,114 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6311
+INFO 2020-06-30 10:27:04,249 basehttp 154 "GET /carts/ HTTP/1.1" 200 1196
+WARNING 2020-06-30 10:27:06,212 log 228 Not Found: /carts/simple/
+WARNING 2020-06-30 10:27:06,213 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6311
+WARNING 2020-06-30 10:27:07,153 log 228 Not Found: /carts/simple/
+WARNING 2020-06-30 10:27:07,154 basehttp 154 "GET /carts/simple/ HTTP/1.1" 404 6311
+INFO 2020-06-30 10:27:17,993 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/urls.py changed, reloading.
+INFO 2020-06-30 10:27:18,771 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-30 10:27:44,159 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-06-30 10:27:48,460 log 228 Internal Server Error: /carts/simple/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py", line 37, in get
+    'count': cart_dict.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2020-06-30 10:27:48,462 basehttp 154 "GET /carts/simple/ HTTP/1.1" 500 80121
+ERROR 2020-06-30 10:27:49,561 log 228 Internal Server Error: /carts/simple/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py", line 37, in get
+    'count': cart_dict.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2020-06-30 10:27:49,562 basehttp 154 "GET /carts/simple/ HTTP/1.1" 500 80121
+ERROR 2020-06-30 10:27:51,095 log 228 Internal Server Error: /carts/simple/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py", line 37, in get
+    'count': cart_dict.get(sku.id).get('count'),
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2020-06-30 10:27:51,096 basehttp 154 "GET /carts/simple/ HTTP/1.1" 500 80121
+INFO 2020-06-30 10:29:05,949 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2020-06-30 10:29:06,730 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-30 10:29:14,929 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2020-06-30 10:29:15,702 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-30 10:29:25,903 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-30 10:29:29,922 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-06-30 10:29:31,084 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-06-30 10:29:35,872 basehttp 154 "GET /carts/ HTTP/1.1" 200 1196
+INFO 2020-06-30 10:29:41,189 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-06-30 10:29:41,602 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-06-30 11:54:58,395 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2020-06-30 11:54:59,219 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-30 11:55:50,808 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2020-06-30 11:55:51,603 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-30 11:57:38,549 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/carts/views.py changed, reloading.
+INFO 2020-06-30 11:57:39,448 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-30 11:57:56,685 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 804
+INFO 2020-06-30 11:57:58,794 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 804
+INFO 2020-06-30 11:58:00,906 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 804
+INFO 2020-06-30 11:58:06,047 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 804
+INFO 2020-06-30 11:58:07,353 basehttp 154 "GET /carts/ HTTP/1.1" 200 1196
+INFO 2020-06-30 11:58:12,027 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 804
+INFO 2020-06-30 11:58:12,889 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 804
+INFO 2020-06-30 11:58:28,296 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-06-30 11:58:32,409 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-06-30 11:58:32,726 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 11:52:13,534 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-01 11:52:29,864 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 11:52:31,736 basehttp 154 "GET /carts/ HTTP/1.1" 200 1196
+INFO 2020-07-01 11:52:34,194 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 848
+INFO 2020-07-01 11:52:43,743 basehttp 154 "OPTIONS /carts/ HTTP/1.1" 200 0
+INFO 2020-07-01 11:52:43,751 basehttp 154 "PUT /carts/ HTTP/1.1" 200 80
+INFO 2020-07-01 11:52:45,186 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 1086
+INFO 2020-07-01 11:52:47,576 basehttp 154 "GET /carts/ HTTP/1.1" 200 1195
+INFO 2020-07-01 11:52:49,001 basehttp 154 "OPTIONS /carts/selection/ HTTP/1.1" 200 0
+INFO 2020-07-01 11:52:49,011 basehttp 154 "PUT /carts/selection/ HTTP/1.1" 200 27
+INFO 2020-07-01 11:52:50,500 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 88
+INFO 2020-07-01 11:53:09,648 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 88
+INFO 2020-07-01 11:53:23,799 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-07-01 11:53:23,820 basehttp 154 "GET /addresses/ HTTP/1.1" 200 938
+INFO 2020-07-01 11:53:39,407 basehttp 154 "GET /carts/ HTTP/1.1" 200 1199
+INFO 2020-07-01 11:53:43,341 basehttp 154 "GET /carts/ HTTP/1.1" 200 1199
+INFO 2020-07-01 11:53:47,423 basehttp 154 "GET /carts/ HTTP/1.1" 200 1199
+INFO 2020-07-01 11:53:48,561 basehttp 154 "PUT /carts/ HTTP/1.1" 200 81
+INFO 2020-07-01 11:53:49,652 basehttp 154 "GET /carts/ HTTP/1.1" 200 1198
+INFO 2020-07-01 11:53:51,285 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-01 11:53:56,036 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-07-01 11:53:56,056 basehttp 154 "GET /addresses/ HTTP/1.1" 200 938
+INFO 2020-07-01 11:54:12,454 basehttp 154 "OPTIONS /addresses/1/ HTTP/1.1" 200 0
+INFO 2020-07-01 11:54:12,480 basehttp 154 "DELETE /addresses/1/ HTTP/1.1" 200 61
+INFO 2020-07-01 11:54:12,542 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-07-01 11:54:12,560 basehttp 154 "GET /addresses/ HTTP/1.1" 200 648
+INFO 2020-07-01 11:55:38,489 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-01 11:56:51,124 basehttp 154 "GET /info/ HTTP/1.1" 200 146
+INFO 2020-07-01 11:56:51,128 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 39
+INFO 2020-07-01 11:56:56,672 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 11:56:58,236 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-07-01 11:56:58,243 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 11:56:58,251 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+INFO 2020-07-01 11:56:58,902 basehttp 154 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2020-07-01 11:56:58,914 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 11:56:58,917 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2020-07-01 11:57:01,529 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 11:57:02,967 basehttp 154 "GET /info/ HTTP/1.1" 200 146
+INFO 2020-07-01 11:57:02,972 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 319
+INFO 2020-07-01 11:57:06,550 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-07-01 11:57:06,566 basehttp 154 "GET /addresses/ HTTP/1.1" 200 648
+INFO 2020-07-01 11:57:08,701 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-07-01 11:57:08,720 basehttp 154 "GET /addresses/ HTTP/1.1" 200 648
+INFO 2020-07-01 11:57:10,016 basehttp 154 "GET /info/ HTTP/1.1" 200 146
+INFO 2020-07-01 11:57:10,018 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 319
+INFO 2020-07-01 11:57:12,330 basehttp 154 "GET /info/ HTTP/1.1" 200 146
+INFO 2020-07-01 11:57:12,333 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 319
+INFO 2020-07-01 11:57:14,178 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-07-01 11:57:14,194 basehttp 154 "GET /addresses/ HTTP/1.1" 200 648
+INFO 2020-07-01 12:09:07,234 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-01 12:09:08,163 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-01 14:10:10,989 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/models.py changed, reloading.
+INFO 2020-07-01 14:10:11,773 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-01 14:14:31,670 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/models.py changed, reloading.
+INFO 2020-07-01 14:14:32,373 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-01 14:14:36,160 basehttp 154 "GET /carts/ HTTP/1.1" 200 1198
+INFO 2020-07-01 14:14:38,061 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-01 14:14:45,667 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-01 14:25:49,401 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-01 14:26:00,775 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 14:26:04,929 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 14:26:06,024 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 14:26:10,282 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-01 14:26:11,987 basehttp 154 "GET /carts/ HTTP/1.1" 200 1198
+INFO 2020-07-01 14:26:23,348 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-01 14:27:13,542 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-01 14:27:52,022 basehttp 154 "GET /info/ HTTP/1.1" 200 146
+INFO 2020-07-01 14:27:52,032 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 319
+INFO 2020-07-01 14:27:58,278 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-07-01 14:27:58,297 basehttp 154 "GET /addresses/ HTTP/1.1" 200 648
+INFO 2020-07-01 14:34:34,991 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-01 14:34:35,711 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-01 14:35:15,684 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/users/views.py changed, reloading.
+INFO 2020-07-01 14:35:16,361 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-01 14:36:20,914 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-07-01 14:36:20,935 basehttp 154 "GET /addresses/ HTTP/1.1" 200 648
+INFO 2020-07-01 14:36:29,773 basehttp 154 "GET /carts/ HTTP/1.1" 200 1198
+INFO 2020-07-01 14:36:32,219 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-02 00:03:19,847 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 00:03:23,991 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:03:25,897 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:04:29,569 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:04:31,855 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:04:33,230 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:04:39,211 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:04:39,704 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:05:38,922 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:05:50,320 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:05:59,303 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:06:52,692 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:07:04,774 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:07:06,184 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:07:14,658 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 00:07:15,883 basehttp 154 "GET /carts/ HTTP/1.1" 200 1198
+INFO 2020-07-02 00:07:19,570 basehttp 154 "GET /info/ HTTP/1.1" 200 146
+INFO 2020-07-02 00:07:19,575 basehttp 154 "GET /browse_histories/ HTTP/1.1" 200 319
+INFO 2020-07-02 00:07:23,199 basehttp 154 "GET /areas/ HTTP/1.1" 200 1696
+INFO 2020-07-02 00:07:23,206 basehttp 154 "GET /addresses/ HTTP/1.1" 200 648
+INFO 2020-07-02 00:07:29,166 basehttp 154 "GET /carts/ HTTP/1.1" 200 1198
+INFO 2020-07-02 00:07:32,347 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-02 00:09:11,031 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 361
+INFO 2020-07-02 00:10:44,233 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 00:10:44,967 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 00:10:48,905 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 723
+INFO 2020-07-02 00:12:01,020 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 723
+INFO 2020-07-02 00:14:31,186 basehttp 154 "GET /carts/ HTTP/1.1" 200 1198
+INFO 2020-07-02 00:14:34,934 basehttp 154 "OPTIONS /carts/ HTTP/1.1" 200 0
+INFO 2020-07-02 00:14:34,948 basehttp 154 "PUT /carts/ HTTP/1.1" 200 81
+INFO 2020-07-02 00:14:37,256 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 998
+INFO 2020-07-02 00:17:03,806 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 00:17:04,546 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 00:17:18,903 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 00:17:19,657 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 00:17:23,731 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 1038
+INFO 2020-07-02 00:19:10,239 basehttp 154 "OPTIONS /orders/commit/ HTTP/1.1" 200 0
+WARNING 2020-07-02 00:19:10,250 log 228 Not Found: /orders/commit/
+WARNING 2020-07-02 00:19:10,251 basehttp 154 "POST /orders/commit/ HTTP/1.1" 404 6640
+INFO 2020-07-02 04:10:02,649 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 04:10:19,225 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 04:10:23,028 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 04:10:23,444 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 04:10:24,692 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 04:10:27,460 basehttp 154 "GET /carts/ HTTP/1.1" 200 1197
+INFO 2020-07-02 04:10:30,342 basehttp 154 "OPTIONS /carts/ HTTP/1.1" 200 0
+INFO 2020-07-02 04:10:30,351 basehttp 154 "PUT /carts/ HTTP/1.1" 200 80
+INFO 2020-07-02 04:10:32,256 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 1271
+INFO 2020-07-02 04:10:53,444 basehttp 154 "OPTIONS /orders/commit/ HTTP/1.1" 200 0
+ERROR 2020-07-02 04:10:53,500 log 228 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py", line 83, in post
+    order_id = timezone.localtime().strftime('%Y%m%d%H%M%S') + '%06d' % request.id
+AttributeError: 'WSGIRequest' object has no attribute 'id'
+ERROR 2020-07-02 04:10:53,502 basehttp 154 "POST /orders/commit/ HTTP/1.1" 500 81882
+INFO 2020-07-02 04:11:37,582 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 04:11:38,907 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 04:11:43,077 basehttp 154 "OPTIONS /orders/commit/ HTTP/1.1" 200 0
+INFO 2020-07-02 04:11:43,112 basehttp 154 "POST /orders/commit/ HTTP/1.1" 200 27
+INFO 2020-07-02 04:13:06,406 basehttp 154 "GET /carts/ HTTP/1.1" 200 1196
+INFO 2020-07-02 09:27:50,135 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 09:28:21,061 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 1042
+INFO 2020-07-02 09:28:22,681 basehttp 154 "GET /carts/ HTTP/1.1" 200 1196
+INFO 2020-07-02 09:29:53,146 basehttp 154 "OPTIONS /carts/selection/ HTTP/1.1" 200 0
+INFO 2020-07-02 09:29:53,156 basehttp 154 "PUT /carts/selection/ HTTP/1.1" 200 27
+INFO 2020-07-02 09:29:53,488 basehttp 154 "PUT /carts/selection/ HTTP/1.1" 200 27
+INFO 2020-07-02 09:29:54,813 basehttp 154 "OPTIONS /carts/ HTTP/1.1" 200 0
+INFO 2020-07-02 09:29:54,826 basehttp 154 "PUT /carts/ HTTP/1.1" 200 80
+INFO 2020-07-02 09:30:25,289 basehttp 154 "PUT /carts/ HTTP/1.1" 200 80
+INFO 2020-07-02 09:30:33,374 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 939
+INFO 2020-07-02 09:30:42,823 basehttp 154 "OPTIONS /orders/commit/ HTTP/1.1" 200 0
+ERROR 2020-07-02 09:30:42,901 log 228 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py", line 102, in post
+    skus = SKU.objects.get(id__in=redis_selected)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/db/models/query.py", line 412, in get
+    (self.model._meta.object_name, num)
+goods.models.SKU.MultipleObjectsReturned: get() returned more than one SKU -- it returned 2!
+ERROR 2020-07-02 09:30:42,903 basehttp 154 "POST /orders/commit/ HTTP/1.1" 500 92430
+INFO 2020-07-02 09:32:33,696 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:32:34,383 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-07-02 09:32:41,845 log 228 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py", line 120, in post
+    sku.sales += count
+TypeError: unsupported operand type(s) for +=: 'int' and 'bytes'
+ERROR 2020-07-02 09:32:41,847 basehttp 154 "POST /orders/commit/ HTTP/1.1" 500 83363
+INFO 2020-07-02 09:36:19,782 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:36:20,518 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-07-02 09:36:27,033 log 228 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py", line 120, in post
+    sku.sales += count
+TypeError: unsupported operand type(s) for +=: 'int' and 'bytes'
+ERROR 2020-07-02 09:36:27,035 basehttp 154 "POST /orders/commit/ HTTP/1.1" 500 83363
+INFO 2020-07-02 09:37:50,215 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:37:50,930 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-07-02 09:37:56,080 log 228 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py", line 116, in post
+    if count > sku.stock:
+TypeError: '>' not supported between instances of 'bytes' and 'int'
+ERROR 2020-07-02 09:37:56,083 basehttp 154 "POST /orders/commit/ HTTP/1.1" 500 83442
+INFO 2020-07-02 09:42:21,274 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:42:22,009 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-07-02 09:42:28,498 log 228 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py", line 120, in post
+    sku.sales += count
+TypeError: unsupported operand type(s) for +=: 'int' and 'bytes'
+ERROR 2020-07-02 09:42:28,501 basehttp 154 "POST /orders/commit/ HTTP/1.1" 500 83363
+INFO 2020-07-02 09:43:06,016 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:43:06,754 autoreload 597 Watching for file changes with StatReloader
+ERROR 2020-07-02 09:43:20,029 log 228 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py", line 137, in post
+    redis_cart.hdel('carts_%s' % user.id)
+AttributeError: 'dict' object has no attribute 'hdel'
+ERROR 2020-07-02 09:43:20,031 basehttp 154 "POST /orders/commit/ HTTP/1.1" 500 83515
+INFO 2020-07-02 09:44:40,647 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:44:41,494 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 09:45:31,968 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:45:32,748 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 09:45:37,243 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 939
+ERROR 2020-07-02 09:45:43,057 log 228 Internal Server Error: /orders/commit/
+Traceback (most recent call last):
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/contrib/auth/mixins.py", line 52, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/Users/lh/.local/share/virtualenvs/LH_meiduo_mall-36VxSm9i/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py", line 137, in post
+    redis_cart.hdel('carts_%s' % user.id)
+AttributeError: 'dict' object has no attribute 'hdel'
+ERROR 2020-07-02 09:45:43,060 basehttp 154 "POST /orders/commit/ HTTP/1.1" 500 83515
+INFO 2020-07-02 09:46:39,492 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:46:40,369 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 09:47:16,788 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:47:17,568 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 09:47:24,626 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:47:25,354 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 09:47:33,665 basehttp 154 "POST /orders/commit/ HTTP/1.1" 200 27
+INFO 2020-07-02 09:48:08,230 autoreload 217 /Users/lh/Desktop/LH_meiduo_mall/meiduo_mall/meiduo_mall/apps/orders/views.py changed, reloading.
+INFO 2020-07-02 09:48:08,952 autoreload 597 Watching for file changes with StatReloader
+INFO 2020-07-02 09:48:16,146 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 592
+INFO 2020-07-02 09:48:17,181 basehttp 154 "GET /carts/ HTTP/1.1" 200 670
+INFO 2020-07-02 09:48:21,178 basehttp 154 "DELETE /carts/ HTTP/1.1" 200 27
+INFO 2020-07-02 09:48:21,576 basehttp 154 "DELETE /carts/ HTTP/1.1" 200 27
+INFO 2020-07-02 09:48:27,543 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 44
+INFO 2020-07-02 09:48:29,031 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 44
+INFO 2020-07-02 09:48:29,031 basehttp 154 "GET /hot/115/ HTTP/1.1" 200 582
+INFO 2020-07-02 09:48:29,048 basehttp 154 "GET /list/115/skus/?page=1&page_size=5&ordering=-create_time HTTP/1.1" 200 1561
+INFO 2020-07-02 09:48:30,399 basehttp 154 "GET /list/115/skus/?page=2&page_size=5&ordering=-create_time HTTP/1.1" 200 1487
+INFO 2020-07-02 09:48:34,508 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 44
+INFO 2020-07-02 09:48:34,510 basehttp 154 "OPTIONS /browse_histories/ HTTP/1.1" 200 0
+INFO 2020-07-02 09:48:34,520 basehttp 154 "POST /browse_histories/ HTTP/1.1" 200 27
+INFO 2020-07-02 09:48:36,498 basehttp 154 "POST /carts/ HTTP/1.1" 200 27
+INFO 2020-07-02 09:48:39,598 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 280
+INFO 2020-07-02 09:48:40,754 basehttp 154 "GET /carts/ HTTP/1.1" 200 318
+INFO 2020-07-02 09:48:43,006 basehttp 154 "GET /orders/settlement/ HTTP/1.1" 200 706
+INFO 2020-07-02 09:48:46,795 basehttp 154 "POST /orders/commit/ HTTP/1.1" 200 63
+INFO 2020-07-02 09:48:50,212 basehttp 154 "GET /carts/simple/ HTTP/1.1" 200 44

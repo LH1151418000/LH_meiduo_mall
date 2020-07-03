@@ -103,29 +103,53 @@ class OrderCommitView(LoginRequiredMixin, View):
             # ============新建订单商品=============
 
             redis_cart, redis_selected = get_redis_carts(request)
-            skus = SKU.objects.filter(id__in=redis_selected)
+            # skus = SKU.objects.filter(id__in=redis_selected)
 
-            for sku in skus:
-                sku_id = str(sku.id).encode()
-                count = int(redis_cart[sku_id])
+            cart_dict = {}
+            for sku_id, count in redis_cart.items():
+                if sku_id in redis_selected:
+                    cart_dict[int(sku_id)] = {
+                        'count': int(count),
+                        'selected': sku_id in redis_selected
+                    }
 
-                order_goods = OrderGoods(
-                    order=order,
-                    sku=sku,
-                    count=int(count),
-                    price=sku.price,
-                )
-                order_goods.save()
+            sku_ids = cart_dict.keys()
+            for sku_id in sku_ids:
+                while True:
+                    # sku_id = str(sku.id).encode()
+                    # count = int(redis_cart[sku_id])
 
-                if count > sku.stock:
-                    # 返回事务保存点
-                    transaction.savepoint_rollback(save_id)
-                    return JsonResponse({'code': 400, 'errmsg': '超出库存'})
+                    # 乐观锁第一次读取
+                    sku = SKU.objects.get(pk=sku_id)
 
-                # 销量累加，库存减少
-                sku.sales += count
-                sku.stock -= count
+                    old_stock = sku.stock
+                    old_sales = sku.sales
 
+                    count = cart_dict[sku_id]['count']
+
+                    if count > old_stock:
+                        # 返回事务保存点
+                        transaction.savepoint_rollback(save_id)
+                        return JsonResponse({'code': 400, 'errmsg': '超出库存'})
+
+                    # 销量累加，库存减少
+                    # sku.sales += count
+                    # sku.stock -= count
+                    new_stock = old_stock - count
+                    new_sales = old_sales + count
+
+                    result = SKU.objects.filter(pk=sku.id, stock=old_stock, sales=old_sales).update(stock=new_stock, sales=new_sales)
+                    if result == 0:
+                        continue
+
+                    order_goods = OrderGoods(
+                        order=order,
+                        sku=sku,
+                        count=int(count),
+                        price=sku.price,
+                    )
+                    order_goods.save()
+                    break
                 # 同类商品销量累加
                 spu = sku.goods
                 spu.sales += count

@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'goods',
     'carts',
     'orders',
+    'payment',
 
 ]
 
@@ -296,3 +297,9 @@ HAYSTACK_SIGNAL_PROCESSOR = 'haystack.signals.RealtimeSignalProcessor'
 
 # 可以在 dev.py 中添加如下代码, 用于决定每页显示数据条数:
 HAYSTACK_SEARCH_RESULTS_PER_PAGE = 5
+
+# 支付宝支付
+ALIPAY_APPID = '2016102900776443'
+ALIPAY_DEBUG = True
+ALIPAY_URL = 'https://openapi.alipaydev.com/gateway.do'
+ALIPAY_RETURN_URL = "http://www.meiduo.site:8080/pay_success.html"

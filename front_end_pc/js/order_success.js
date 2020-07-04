@@ -52,7 +52,7 @@ var vm = new Vue({
             }
             return null;
         },
-         next_operate: function(){
+                 next_operate: function(){
             if (this.pay_method == 1) {
                 location.href = '/index.html';
             } else {
@@ -63,8 +63,12 @@ var vm = new Vue({
                         responseType: 'json'
                     })
                     .then(response => {
-                        // 跳转到支付宝支付
-                        location.href = response.data.alipay_url;
+                       if (response.data.code == 0){
+                           // 跳转到支付宝支付
+                           location.href = response.data.alipay_url;
+                       } else if (response.data.code == 400) {
+                           alert(response.data.errmsg)
+                       }
                     })
                     .catch(error => {
                         console.log(error);
